@@ -1,0 +1,54 @@
+.type-24 {
+  margin: 10px 0;
+}
+.type-24 .type-24__image-container {
+  height: 194px;
+  position: relative;
+  overflow: hidden;
+}
+.type-24 .type-24__image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+.type-24 .type-24__image:hover {
+  transform: scale(1.1);
+}
+.type-24 .type-24__date {
+  transform: translateY(-1rem);
+  position: relative;
+  color: #fff;
+  display: inline-block;
+  padding: 0px 7px;
+  font-weight: 500;
+}
+.type-24 .type-24__date::before {
+  content: "";
+  position: absolute;
+  background: #d80019;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(3deg) skew(-10deg);
+}
+.type-24 .type-24__author {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: darkgray;
+}
+.type-24 .type-24__title {
+  font-size: 1.2rem;
+}
+.type-24 .type-24__description {
+  font-size: 0.8rem;
+  color: gray;
+}
+.type-24 .type-24__read-more {
+  color: #448bc6;
+  padding: 10px 0;
+}
