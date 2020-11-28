@@ -1,0 +1,172 @@
+.type-01 {
+  background: #fff;
+}
+@font-face {
+  font-family: 'Dosis-Bold';
+  src: url('../fonts/Dosis-Bold.ttf.');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Condensed';
+  src: url('../fonts/RobotoCondensed-Regular.ttf.');
+  font-weight: normal;
+  font-style: normal;
+}
+.type-01 .top {
+  color: #888888;
+}
+.type-01 .top .top__left {
+  float: left;
+}
+.type-01 .top .top__left .widget:last-of-type {
+  margin-right: 0;
+}
+.type-01 .top .widget-icon-box {
+  padding: 10px;
+}
+.type-01 .top .icon-box {
+  display: block;
+  color: #888;
+}
+.type-01 .top .icon-box__title {
+  display: inline-block;
+  color: #888;
+  font-family: Roboto Condensed, Helvetica, Arial, sans-serif;
+  font-size: .77778rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.type-01 .top .top__right {
+  float: right;
+}
+.type-01 .top .top__right .widget:first-of-type {
+  margin-left: 0;
+}
+.type-01 .top .widget_nav_menu .menu {
+  margin: 0;
+  padding: 0;
+}
+.type-01 .top .widget_nav_menu .menu .sub-menu {
+  position: absolute;
+  visibility: hidden;
+  padding: 0;
+  opacity: 0;
+  left: -0.27778rem;
+}
+.type-01 .top .widget_nav_menu .menu .sub-menu .menu-item {
+  display: block;
+  text-align: left;
+}
+.type-01 .top .widget_nav_menu .menu .sub-menu .menu-item a {
+  display: block;
+  white-space: nowrap;
+  background-color: #f7f7f7;
+  padding: .27778rem 1.66667rem .27778rem .83333rem;
+  min-width: 4.44444rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.type-01 .top .widget_nav_menu .menu .sub-menu .menu-item a:hover {
+  color: #d80019;
+}
+.type-01 .top .widget_nav_menu .menu>.menu-item {
+  position: relative;
+  display: inline-block;
+}
+.type-01 .top .top .widget_nav_menu .menu>.menu-item:first-of-type>a {
+  padding-left: 0;
+}
+.type-01 .top .widget_nav_menu .menu a {
+  display: block;
+  padding: .61111rem .44444rem .44444rem;
+  color: #888;
+}
+.type-01 .icon-box {
+  color: #888888;
+}
+.type-01 .header__container {
+  padding-top: 0;
+}
+.type-01 .header__container .header {
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  display: flex;
+}
+.type-01 .header__container .header .header__logo {
+  margin-bottom: auto;
+  min-height: 4.77778rem;
+  width: 300px;
+}
+.type-01 .header__container .header .header__logo img {
+  margin-top: 18px;
+}
+.type-01 .header__container .header__navbar-toggler {
+  height: 3.33333rem;
+  width: 6.11111rem;
+  padding: 0;
+  font-size: .72222rem;
+  margin-top: 1.66667rem;
+  margin-bottom: 1.66667rem;
+  margin-left: 1.66667rem;
+}
+.type-01 .header__container:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 12px;
+  background: repeating-linear-gradient(90deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1) 2px,transparent 0,transparent 6px);
+  background-image: repeating-linear-gradient(90deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1) 2px,transparent 0px,transparent 6px);
+}
+.type-01 .header__container .navbar-toggleable-md {
+  display: block !important;
+}
+.type-01 .header__container nav {
+  width: 70%;
+}
+.type-01 .header__container nav .header_navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+.type-01 .header__container nav .header_navigation li {
+  float: left;
+}
+.type-01 .header__container nav .header_navigation li a {
+  font-size: 18px;
+  display: block;
+  color: #3b3331;
+  font-family: "Dosis", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  text-align: center;
+  padding: 39px 15px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.type-01 .header__container nav .header_navigation:hover>a {
+  color: #d80019;
+}
+.type-01 .header__container nav .header_navigation .active {
+  color: #d80019;
+}
+.type-01 .btn-primary {
+  border-color: #d80019;
+}
+.type-01 .btn-primary-outline {
+  color: #d80019;
+  background-image: none;
+  background-color: transparent;
+  border: 3px solid #d80019;
+}
+.type-01 .main-navigation__featured-link {
+  margin-top: 20px;
+  padding: 15px 15px;
+  font-family: Dosis, Helvetica, Arial, sans-serif;
+}
