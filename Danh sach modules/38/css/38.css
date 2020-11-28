@@ -1,0 +1,16 @@
+.type-38 .login-form-custom .card__container {
+  border: none;
+}
+.type-38 .login-form-custom .card__container .text-md-right {
+  text-align: left !important;
+}
+.type-38 .login-form-custom .card__container .card-header {
+  border-bottom: none;
+  font-size: 1rem;
+}
+.type-38 .login-form-custom .card__container .btn-login-custom {
+  font-weight: 600;
+  color: #000000;
+  background-color: #A4A4A4;
+  border-color: #A4A4A4;
+}
