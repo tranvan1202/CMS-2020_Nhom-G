@@ -1,0 +1,101 @@
+.type-09 {
+    @color_background =#FDFDFD;
+    @font_size_button =80%;
+
+    @font-face {
+        font-family: 'Dosis-Bold';
+        src: url('../fonts/Dosis-Bold.ttf.');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Dosis-Extra-Bold';
+        src: url('../fonts/Dosis-ExtraBold.ttf.');
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Roboto-Condensed';
+        src: url('../fonts/RobotoCondensed-Regular.ttf.');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    background: @color_background;
+
+    .title-shop-a-surf {
+        margin-top: 30px;
+        .is-btn-title {
+                font-size: 1.66667rem;
+                font-family: Dosis-Bold;
+        }
+    }
+    .card-deck {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        .card {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .05), 0 2px 6px rgba(0, 0, 0, .15);
+
+            .card-body {
+                position: relative;
+                padding: 1.22222rem 1.38889rem .72222rem;
+
+                .card-price {
+                    position: absolute;
+                    display: inline-block;
+                    top: -.61111rem;
+                    font-family: Roboto-Condensed;
+                    font-size: .83333rem;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    background-color: #d80019;
+                    color: #fff;
+                    padding: 0 .27778rem;
+                    left: 1.38889rem;
+                }
+
+                .card-title {
+                    text-transform: uppercase;
+                    font-size: 0.83333rem;
+                    margin-bottom: 0.11111rem;
+
+                    h4 {
+                        margin-top: 0;
+                    }
+
+                    a {
+                        display: block;
+                        color: #3b3331;
+                        padding: 0;
+                        font-family: Dosis-Extra-Bold;
+                    }
+                }
+
+                .card-categories {
+                    padding: 0;
+                    font-size: .83333rem;
+
+                    a {
+                        color: #888888;
+                        font-size: 1rem;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+
+        .card-img-top {
+            img {
+                display: block;
+                max-width: 300px;
+                max-height: 300px;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+
+}
