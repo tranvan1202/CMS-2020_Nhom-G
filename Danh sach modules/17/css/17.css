@@ -1,0 +1,38 @@
+.type-product {
+  list-style: none;
+}
+.add-card {
+  color: #333 !important;
+  font-weight: bold !important;
+  width: 300px !important;
+  background-color: #ddd !important;
+  margin-top: .66667rem !important;
+  padding: 1.33333rem 1.11111rem 1.22222rem !important;
+  border-radius: 0 !important;
+}
+.hinh:hover {
+  border: 3px solid #d80019 !important;
+}
+.add-card:hover {
+  background-color: #d80019 !important;
+}
+a {
+  text-decoration: underline;
+  text-decoration-color: #d80019 !important;
+}
+h2 {
+  padding: .5em 0;
+  margin: 0;
+  font-size: 1em !important;
+  font-family: Dosis, Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+  color: #3b3331 !important;
+}
+.price {
+  display: block;
+  color: #d80019;
+  font-family: Dosis, Helvetica, Arial, sans-serif;
+  font-size: 1.38889rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
