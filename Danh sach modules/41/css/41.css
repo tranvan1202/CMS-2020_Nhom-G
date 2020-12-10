@@ -73,7 +73,7 @@
   font-size: inherit;
   text-rendering: auto;
 }
-.type-41 .card-img-top img {
+.type-41 .custom-card .card-img-top img {
   display: block;
   max-width: 300px;
   max-height: 300px;
