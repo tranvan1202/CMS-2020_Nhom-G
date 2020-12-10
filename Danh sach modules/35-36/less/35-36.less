@@ -1,0 +1,95 @@
+.type-35-36 {
+    background-image: url('../images/shaka-background.png');
+
+    .type-35-36__container {
+        font-family: Dosis, Helvetica, Arial, sans-serif;
+        color: #3b3331;
+        .wc-tabs {
+            border-bottom: none;
+            position: relative;
+            width: 100%;
+            padding-bottom: 1.38889rem;
+            &::after {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 2px;
+                left: 0;
+                bottom: 0;
+                background: repeating-linear-gradient(90deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) 2px, transparent 0, transparent 6px);
+            }
+
+            a {
+                display: inline-block;
+                border: 0;
+                padding: .83333rem 1.38889rem;
+                color: #888;
+                font-weight: 800;
+                font-size: .83333rem;
+                &:hover{
+                    border: none;
+                }
+            }
+
+            .description_first {
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    height: 2.22222rem;
+                    width: 2px;
+                    right: -1px;
+                    left: inherit;
+                    top: calc(20% - 1.11111rem);
+                    background: repeating-linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) 2px, transparent 0, transparent 6px);
+                    box-shadow: none;
+                    border-width: 0;
+                    border-radius: 0;
+                }         
+            }
+            .active {
+                border: none;
+                color: #3b3331;
+            }
+        }
+
+        .type-35 {
+            .woo-tabs-panel {
+
+                font-size: 1rem;
+                margin-top: 1.66667rem;
+                margin-bottom: 2.5rem;
+
+            }
+
+        }
+
+        .type-36 {
+            .woo-tabs-panel-comment {
+                font-size: 1rem;
+                margin-top: 1.66667rem;
+                margin-bottom: 2.5rem;
+            }
+
+            a {
+                color: #448bc6;
+            }
+
+            .text-small {
+                font-size: .83333rem;
+            }
+        }
+
+        h2 {
+            font-size: 1.11111rem;
+            margin-bottom: .83333rem;
+
+            font-weight: 800;
+        }
+
+        p {
+            color: #888;
+        }
+    }
+}
