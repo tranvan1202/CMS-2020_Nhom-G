@@ -1,7 +1,4 @@
 .type-40 {
-    @color_background =#FDFDFD;
-    @font_size_button =80%;
-
     @font-face {
         font-family: 'Dosis-Bold';
         src: url('../fonts/Dosis-Bold.ttf.');
@@ -15,17 +12,14 @@
         font-weight: 800;
         font-style: normal;
     }
-
-    //background: @color_background;
-
     .hentry {
         position: relative;
-    width: 100%;
+        width: 100%;
+
         .meta {
             position: relative;
             margin-top: 1.5rem;
             padding-top: 1.77778rem;
-            font-size: 0;
             text-align: right;
 
             &:before {
@@ -51,12 +45,16 @@
                     margin-right: .27778rem;
                     margin-bottom: .27778rem;
                     padding: .30556rem .55556rem;
-                    transition: all .1s ease-out;
-                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: none;
+                        background-color: #eaeaea;
+                        color: #aeaeae;
+                    }
                 }
             }
 
-            .meta__item--author {
+            .author {
                 float: left;
                 font-size: 1rem;
                 text-transform: uppercase;
