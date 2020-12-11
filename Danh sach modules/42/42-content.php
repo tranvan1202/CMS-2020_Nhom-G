@@ -32,191 +32,191 @@ $url_path = str_replace('\\', '/', $url_path);
                 <button class="btn" onclick="filterSelection('wind')"> WINDSURFING</button>
                 <button class="btn" onclick="filterSelection('kite')"> KITESURFING</button>
             </div>
+        </div>
 
-            <div class="card-deck">
-                <a class="custom-card surfing" href="#">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-price"> $650</p>
-                            <h5 class="card-title">
-                                Trip to Spain 1
-                            </h5>
-                            <div class="card-items">
-                                <p class="card-item">
-                                    <i class="fa fa-map-marker"></i>
-                                    Los Riomare
-                                </p>
-                                <p class="card-item">
-                                    <i class="fa fa-check"></i>
-                                    Accomodation
-                                </p>
-                            </div>
+        <div class="row">
+
+            <a class="custom-card col-md-3 surfing" href="#">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-price"> $650</p>
+                        <h5 class="card-title">
+                            Trip to Spain 1
+                        </h5>
+                        <div class="card-items">
+                            <p class="card-item">
+                                <i class="fa fa-map-marker"></i>
+                                Los Riomare
+                            </p>
+                            <p class="card-item">
+                                <i class="fa fa-check"></i>
+                                Accomodation
+                            </p>
                         </div>
                     </div>
-                </a>
+                </div>
+            </a>
 
-                <a class="custom-card wind" href="#">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-price"> $650</p>
-                            <h5 class="card-title">
-                                Trip to Spain 2
-                            </h5>
-                            <div class="card-items">
-                                <p class="card-item">
-                                    <i class="fa fa-map-marker"></i>
-                                    Los Riomare
-                                </p>
-                                <p class="card-item">
-                                    <i class="fa fa-check"></i>
-                                    Accomodation
-                                </p>
-                            </div>
+
+            <a class="custom-card col-md-3 wind" href="#">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-price"> $650</p>
+                        <h5 class="card-title">
+                            Trip to Spain 2
+                        </h5>
+                        <div class="card-items">
+                            <p class="card-item">
+                                <i class="fa fa-map-marker"></i>
+                                Los Riomare
+                            </p>
+                            <p class="card-item">
+                                <i class="fa fa-check"></i>
+                                Accomodation
+                            </p>
                         </div>
                     </div>
-                </a>
+                </div>
+            </a>
 
-                <a class="custom-card family" href="#">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-price"> $650</p>
-                            <h5 class="card-title">
-                                Trip to Spain 3
-                            </h5>
-                            <div class="card-items">
-                                <p class="card-item">
-                                    <i class="fa fa-map-marker"></i>
-                                    Los Riomare
-                                </p>
-                                <p class="card-item">
-                                    <i class="fa fa-check"></i>
-                                    Accomodation
-                                </p>
-                            </div>
+            <a class="custom-card col-md-3 family" href="#">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-price"> $650</p>
+                        <h5 class="card-title">
+                            Trip to Spain 3
+                        </h5>
+                        <div class="card-items">
+                            <p class="card-item">
+                                <i class="fa fa-map-marker"></i>
+                                Los Riomare
+                            </p>
+                            <p class="card-item">
+                                <i class="fa fa-check"></i>
+                                Accomodation
+                            </p>
+                        </div>
 
+                    </div>
+                </div>
+            </a>
+
+            <a class="custom-card col-md-3 kite" href="#">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-price"> $650</p>
+                        <h5 class="card-title">
+                            Trip to Spain 4
+                        </h5>
+                        <div class="card-items">
+                            <p class="card-item">
+                                <i class="fa fa-map-marker"></i>
+                                Los Riomare
+                            </p>
+                            <p class="card-item">
+                                <i class="fa fa-check"></i>
+                                Accomodation
+                            </p>
                         </div>
                     </div>
-                </a>
+                </div>
+            </a>
 
-                <a class="custom-card kite" href="#">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-price"> $650</p>
-                            <h5 class="card-title">
-                                Trip to Spain 4
-                            </h5>
-                            <div class="card-items">
-                                <p class="card-item">
-                                    <i class="fa fa-map-marker"></i>
-                                    Los Riomare
-                                </p>
-                                <p class="card-item">
-                                    <i class="fa fa-check"></i>
-                                    Accomodation
-                                </p>
-                            </div>
-
+            <a class="custom-card col-md-3 kite" href="#">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-price"> $650</p>
+                        <h5 class="card-title">
+                            Trip to Spain 5
+                        </h5>
+                        <div class="card-items">
+                            <p class="card-item">
+                                <i class="fa fa-map-marker"></i>
+                                Los Riomare
+                            </p>
+                            <p class="card-item">
+                                <i class="fa fa-check"></i>
+                                Accomodation
+                            </p>
                         </div>
+
                     </div>
-                </a>
+                </div>
+            </a>
 
-                <a class="custom-card kite" href="#">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-price"> $650</p>
-                            <h5 class="card-title">
-                                Trip to Spain 5
-                            </h5>
-                            <div class="card-items">
-                                <p class="card-item">
-                                    <i class="fa fa-map-marker"></i>
-                                    Los Riomare
-                                </p>
-                                <p class="card-item">
-                                    <i class="fa fa-check"></i>
-                                    Accomodation
-                                </p>
-                            </div>
-
+            <a class="custom-card col-md-3 surfing" href="#">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-price"> $650</p>
+                        <h5 class="card-title">
+                            Trip to Spain 6
+                        </h5>
+                        <div class="card-items">
+                            <p class="card-item">
+                                <i class="fa fa-map-marker"></i>
+                                Los Riomare
+                            </p>
+                            <p class="card-item">
+                                <i class="fa fa-check"></i>
+                                Accomodation
+                            </p>
                         </div>
+
                     </div>
-                </a>
+                </div>
+            </a>
 
-                <a class="custom-card surfing" href="#">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-price"> $650</p>
-                            <h5 class="card-title">
-                                Trip to Spain 6
-                            </h5>
-                            <div class="card-items">
-                                <p class="card-item">
-                                    <i class="fa fa-map-marker"></i>
-                                    Los Riomare
-                                </p>
-                                <p class="card-item">
-                                    <i class="fa fa-check"></i>
-                                    Accomodation
-                                </p>
-                            </div>
-
+            <a class="custom-card col-md-3 wind" href="#">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-price"> $650</p>
+                        <h5 class="card-title">
+                            Trip to Spain 7
+                        </h5>
+                        <div class="card-items">
+                            <p class="card-item">
+                                <i class="fa fa-map-marker"></i>
+                                Los Riomare
+                            </p>
+                            <p class="card-item">
+                                <i class="fa fa-check"></i>
+                                Accomodation
+                            </p>
                         </div>
+
                     </div>
-                </a>
+                </div>
+            </a>
 
-                <a class="custom-card wind" href="#">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-price"> $650</p>
-                            <h5 class="card-title">
-                                Trip to Spain 7
-                            </h5>
-                            <div class="card-items">
-                                <p class="card-item">
-                                    <i class="fa fa-map-marker"></i>
-                                    Los Riomare
-                                </p>
-                                <p class="card-item">
-                                    <i class="fa fa-check"></i>
-                                    Accomodation
-                                </p>
-                            </div>
-
+            <a class="custom-card col-md-3 surfing" href="#">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-price"> $650</p>
+                        <h5 class="card-title">
+                            Trip to Spain 8
+                        </h5>
+                        <div class="card-items">
+                            <p class="card-item">
+                                <i class="fa fa-map-marker"></i>
+                                Los Riomare
+                            </p>
+                            <p class="card-item">
+                                <i class="fa fa-check"></i>
+                                Accomodation
+                            </p>
                         </div>
+
                     </div>
-                </a>
-
-                <a class="custom-card surfing" href="#">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="./images/42-item1" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-price"> $650</p>
-                            <h5 class="card-title">
-                                Trip to Spain 8
-                            </h5>
-                            <div class="card-items">
-                                <p class="card-item">
-                                    <i class="fa fa-map-marker"></i>
-                                    Los Riomare
-                                </p>
-                                <p class="card-item">
-                                    <i class="fa fa-check"></i>
-                                    Accomodation
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </a>
-
-            </div>
+                </div>
+            </a>
 
         </div>
     </div>

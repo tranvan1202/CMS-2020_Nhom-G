@@ -11,9 +11,6 @@
   src: local('Roboto Condensed'), local('RobotoCondensed'), url("../fonts/RobotoCondensed-Regular.ttf") format('truetype');
 }
 @media (min-width: 992px) {
-  .type-42 .custom-card {
-    width: 25%;
-  }
   .type-42 .filter-header {
     display: inline-block;
     border-top: 0;
@@ -60,30 +57,28 @@
 .type-42 .show {
   display: block !important;
 }
-.type-42 .card-deck {
+.type-42 .custom-card {
   overflow: hidden;
-}
-.type-42 .card-deck .custom-card {
   display: none;
   color: inherit;
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
   margin-bottom: 30px;
 }
-.type-42 .card-deck .custom-card:hover {
+.type-42 .custom-card:hover {
   text-decoration: none;
 }
-.type-42 .card-deck .custom-card .card .card-img-top img {
+.type-42 .custom-card .card .card-img-top img {
   display: block;
   max-width: 300px;
   max-height: 300px;
   width: auto;
   height: auto;
 }
-.type-42 .card-deck .custom-card .card .card-body {
+.type-42 .custom-card .card .card-body {
   position: relative;
   padding: 1.22222rem 1.38889rem .72222rem;
 }
-.type-42 .card-deck .custom-card .card .card-body .card-price {
+.type-42 .custom-card .card .card-body .card-price {
   position: absolute;
   display: inline-block;
   top: -0.61111rem;
@@ -95,7 +90,7 @@
   padding: 0 .27778rem;
   left: 1.38889rem;
 }
-.type-42 .card-deck .custom-card .card .card-body .card-title {
+.type-42 .custom-card .card .card-body .card-title {
   font-size: .83333rem;
   margin-bottom: .11111rem;
   text-transform: uppercase;
@@ -103,13 +98,13 @@
   font-weight: 800;
   line-height: 1.2;
 }
-.type-42 .card-deck .custom-card .card .card-body .card-items {
+.type-42 .custom-card .card .card-body .card-items {
   color: #888;
   position: relative;
   margin-top: .66667rem;
   padding-top: .66667rem;
 }
-.type-42 .card-deck .custom-card .card .card-body .card-items:before {
+.type-42 .custom-card .card .card-body .card-items:before {
   position: absolute;
   content: "";
   top: 0;
@@ -118,12 +113,12 @@
   height: 2px;
   background: repeating-linear-gradient(90deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1) 2px,transparent 0,transparent 6px);
 }
-.type-42 .card-deck .custom-card .card .card-body .card-items .card-item {
+.type-42 .custom-card .card .card-body .card-items .card-item {
   padding: 0;
   font-size: .83333rem;
   margin-bottom: 0;
 }
-.type-42 .card-deck .custom-card .card .card-body .card-items .card-item .fa {
+.type-42 .custom-card .card .card-body .card-items .card-item .fa {
   width: 1rem;
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
