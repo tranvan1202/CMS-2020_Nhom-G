@@ -20,8 +20,6 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="col-xs-12 col-lg-6">
             <div class="type-43">
                 <div class="row">
-
-
                     <div class="card">
                         <p class="card-price"> $650</p>
                         <h2 class="card-title">Trip to Spain</h2>
@@ -50,10 +48,12 @@ $url_path = str_replace('\\', '/', $url_path);
                         <a class="btn  btn-primary  book-now" href="#" target="_self">Book Now</a>
 
                     </div>
-
-
                 </div>
             </div>
+        </div>
+
+        <div class="col-xs-12 col-lg-6">
+            Test
         </div>
 
     </div>

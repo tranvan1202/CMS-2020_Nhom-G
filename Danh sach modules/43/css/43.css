@@ -1,5 +1,5 @@
 .featured-image {
-  margin-top: -5rem;
+  margin-top: 1rem;
   margin-bottom: 3.33333rem;
 }
 .featured-image img {
@@ -31,6 +31,11 @@
 @media (min-width: 1700px) {
   .type-43 .card {
     margin-top: -70%;
+  }
+}
+@media (min-width: 992px) {
+  .type-43 .card {
+    margin-top: -40%;
   }
 }
 .type-43 .card {
