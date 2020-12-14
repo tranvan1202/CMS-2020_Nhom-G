@@ -3,13 +3,13 @@
   background-repeat: repeat;
   background-position: top left;
   background-attachment: scroll;
-}
-.type-53 .specialoffer-title {
+  font-family: Roboto Condensed, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #888;
+  background-color: #fff;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-  font-family: Dosis, Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  line-height: 1.2;
 }
 @font-face {
   font-family: 'Dosis';
@@ -23,102 +23,48 @@
   font-weight: 700;
   src: local('Roboto Condensed'), local('RobotoCondensed'), url("../fonts/RobotoCondensed-Regular.ttf") format('truetype');
 }
-@media (min-width: 992px) {
-  .type-53 .type-52 .special-offer__image {
-    display: inline-block;
-    width: 50%;
-  }
-  .type-53 .type-52 .special-offer__content {
-    display: inline-block;
-    width: 50%;
-  }
+@font-face {
+  font-family: "Roboto Condensed Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed'), local('RobotoCondensed'), url("../fonts/RobotoCondensed-Bold.ttf") format('truetype');
 }
-.type-53 .type-52 .special-offer {
-  font-size: 0;
-}
-.type-53 .type-52 .special-offer .special-offer__image {
+.type-53 .col-xs-12 {
+  width: 100%;
   position: relative;
-  z-index: 0;
+  min-height: 1px;
+  padding-left: .9375rem;
+  padding-right: .9375rem;
 }
-.type-53 .type-52 .special-offer .special-offer__image img {
+.type-53 .type-52 .so-widget-sow-editor img {
+  cursor: zoom-in;
+  margin: 5px 20px 20px 0;
   max-width: 100%;
   height: auto;
 }
-.type-53 .type-52 .special-offer .special-offer__content {
-  position: relative;
-  vertical-align: top;
-  font-size: 1rem;
-  padding: 70px 1.94444rem;
-  background-color: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05), 0 2px 6px rgba(0,0,0,0.15);
-}
-.type-53 .type-52 .special-offer .special-offer__content .special-offer__label {
-  position: absolute;
-  display: inline-block;
-  top: -0.61111rem;
-  left: 1.66667rem;
-  font-family: Dosis, Helvetica, Arial, sans-serif;
-  font-size: .83333rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  background-color: #d80019;
-  color: #fff;
-  padding: 0 .27778rem;
-  left: 1.94444rem;
-}
-.type-53 .type-52 .special-offer .special-offer__content .special-offer__title {
-  margin-top: -1.9rem;
-  margin-bottom: .83333rem;
-  font-size: 1.11111rem;
-  text-transform: uppercase;
+.type-53 .type-52 .so-widget-sow-editor h5 {
+  color: #3b3331;
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+  margin-top: 0;
   font-family: Dosis, Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.2;
-  color: #3b3331;
 }
-.type-53 .type-52 .special-offer .special-offer__content .special-offer__price {
-  margin-top: -0.72222rem;
-  margin-bottom: .94444rem;
-  font-family: Dosis, Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-size: 1.33333rem;
-  text-transform: uppercase;
-  color: #d80019;
-}
-.type-53 .type-52 .special-offer .special-offer__content .special-offer__features {
-  margin-bottom: 1.66667rem;
-}
-.type-53 .type-52 .special-offer .special-offer__content .special-offer__features .special-offer__feature {
-  color: #888;
-}
-.type-53 .type-52 .special-offer .special-offer__content .special-offer__features .special-offer__feature .fa {
-  margin-right: .27778rem;
-  vertical-align: middle;
-  color: #3b3331;
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.type-53 .type-52 .special-offer .special-offer__content .special-offer__text {
-  margin-top: -0.55556rem;
-  font-size: .93333rem;
+.type-53 .type-52 .so-widget-sow-editor p {
+  margin-top: 0;
   margin-bottom: 1rem;
-  color: #888;
-  font-family: Roboto Condensed, Helvetica, Arial, sans-serif;
 }
-.type-53 .type-52 .special-offer .special-offer__content .special-offer__cta {
-  display: block;
-  text-transform: uppercase;
-  background-color: #d80019;
+.type-53 .type-52 .so-widget-sow-editor strong {
+  font-family: Roboto Condensed Bold, Helvetica, Arial, sans-serif;
+}
+.type-53 .type-52 .so-widget-sow-editor .btn-primary {
   border-color: #d80019;
+  background-color: #d80019;
   font-size: .83333rem;
   font-family: Dosis, Helvetica, Arial, sans-serif;
   transition: all .1s ease-out;
   border-width: 3px;
-}
-.type-53 .type-52 .special-offer .special-offer__content .btn {
   display: inline-block;
   font-weight: 800;
   text-align: center;
@@ -128,7 +74,7 @@
   user-select: none;
   border: 1px solid transparent;
   border-radius: 0;
-  padding: .88889rem 3.78889rem;
-  font-size: 1rem;
+  padding: .88889rem 1.38889rem;
   line-height: 1.5;
+  float: left;
 }
