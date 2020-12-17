@@ -1,0 +1,22 @@
+.type-16 .navbar-nav .nav-item a {
+  background-color: #3b3331;
+  color: rgba(255,255,255,0.5);
+  padding: .69444rem;
+  margin-left: .16667rem;
+  font-size: 1.33333rem;
+  flex: 1 1 100%;
+}
+.type-16 .navbar-nav .nav-item .nav-link:hover {
+  color: #f7f7f7;
+}
+.type-16 .social-icon__right .nav-item a {
+  color: #f7f7f7;
+}
+.type-16 .social-icon__right .nav-item a i {
+  padding-right: 5px;
+  color: rgba(255,255,255,0.35);
+}
+.type-16 .social-icon__right .dropdown .dropdown-menu {
+  padding: 0;
+  border: none;
+}
