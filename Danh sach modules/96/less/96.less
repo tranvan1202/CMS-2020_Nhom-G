@@ -1,16 +1,22 @@
 .type-96 {
-	@font_tieude_menu: 'Dosis',Helvetica,Arial,sans-serif;
-	@font_text_item: 'Roboto Condensed',Helvetica,Arial,sans-serif;
-	
+	@font_Dosis: 'Dosis',
+	Helvetica,
+	Arial,
+	sans-serif;
+	@font_Roboto: 'Roboto Condensed',
+	Helvetica,
+	Arial,
+	sans-serif;
+
 	@color_text: #888;
 	@color_bg: #f7f7f7;
 	@color_border_table: #888;
 	@color_black: #3b3331;
 	@color_red: #d80019;
 
-	//font-family: @font_text_item;
-	font-size: 1rem;
-    line-height: 1.5;
+	font-family: @font_Roboto;
+	font-size: .77778rem;
+	line-height: 1.5;
 	color: @color_text;
 
 	background-image: url(../images/bg.png);
@@ -18,8 +24,8 @@
 	background-position: top left;
 	background-attachment: scroll;
 
-    
-	
+
+
 	label {
 		display: block;
 		line-height: 2;
@@ -49,7 +55,7 @@
 		box-shadow: none;
 		border-radius: .11111rem;
 		padding: .55556rem;
-		font-family: @font_text_item;
+		font-family: @font_Roboto;
 		font-size: .77778rem;
 	}
 
@@ -66,7 +72,7 @@
 
 	h3 {
 		margin-bottom: .5rem;
-		font-family: Dosis,Helvetica,Arial,sans-serif;
+		font-family: Dosis, Helvetica, Arial, sans-serif;
 		font-weight: 800;
 		line-height: 1.2;
 		color: @color_black;
@@ -74,22 +80,19 @@
 		margin-top: .83333rem;
 		margin-bottom: .83333rem;
 	}
+
 	.checkout-form {
 		.coupon {
 			margin-top: 20px;
 			padding: 16px 32px;
 			margin-bottom: 32px;
-			border-top: 2px solid #1e85be;
 			background: @color_bg;
-			font-family: 'OpenSans';
 
 			span {
 				padding-left: 24px;
 				position: relative;
 				font-size: 16px;
 				color: @color_black;
-
-				&:before {}
 			}
 
 			a {
@@ -119,18 +122,8 @@
 
 			.form-code {
 				padding: 20px;
-
-				// p {
-				// 	font-size: 16px;
-				// 	font-family: 'OpenSans';
-				// 	color: #dce4e8;
-				// 	margin: 0px 0px 18px;
-				// }
 				input {
-					padding: 11px 14px 13px;
-					width: 100%;
-					background: @color_black;
-					border: 2px solid #1d2326;
+					padding: .55556rem;
 					margin-bottom: 26px;
 					color: #dce4e8;
 
@@ -145,13 +138,14 @@
 				}
 
 				a {
-					font-size: 14px;
-					font-family: 'OpenSans';
-					color: #dce4e8;
-					padding: 6px 14px 9px;
+					font-family: @font_Dosis;
+					font-weight: 800;
+					font-size: .83333rem;
+					color: @color_black;
+					padding: 1.33333rem 1.11111rem 1.22222rem;
 					text-transform: uppercase;
 					letter-spacing: 3px;
-					background: @color_black;
+					background-color: #ddd;
 					margin-top: 5px;
 
 					&:hover {
@@ -201,10 +195,11 @@
 		.form-row {
 			padding: 3px;
 			margin: 0 0 6px;
+
 			.required {
 				color: red;
 				font-weight: 700;
-				border: 0!important;
+				border: 0 !important;
 				text-decoration: none;
 			}
 		}
@@ -244,17 +239,18 @@
 
 				.payment-methods-notice {
 					line-height: 2;
-    text-align: left;
-    margin: 0;
-    font-weight: 400;
+					text-align: left;
+					margin: 0;
+					font-weight: 400;
 					border-bottom: 1px solid #a46497;
 					word-wrap: break-word;
 					border-bottom-color: #ebedf2;
-					padding: .33333rem .33333rem .33333rem 3.33333rem!important;
-					font-family: Dosis,Helvetica,Arial,sans-serif;
+					padding: .33333rem .33333rem .33333rem 3.33333rem !important;
+					font-family: Dosis, Helvetica, Arial, sans-serif;
 					text-transform: uppercase;
 				}
 			}
+
 			.btn-primary {
 				background: @color_red;
 				float: right;

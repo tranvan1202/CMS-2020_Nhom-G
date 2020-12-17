@@ -42,7 +42,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
 
             <div class="khung_error">
-              <ul class="woocommerce-error" role="alert">
+              <ul class="woocommerce-error">
                 <li>Billing First name<span> is a required field.</span></li>
                 <li>Billing Last name<span> is a required field.</span></li>
                 <li>Billing First name<span> is a required field.</span></li>
@@ -65,10 +65,10 @@ $url_path = str_replace('\\', '/', $url_path);
                         <!-- Phần input First Name -->
                         <p class="form-row" id="billing_first_name_field">
                           <label for="billing_first_name" class>
-                            First name&nbsp;
+                            First name
                             <abbr class="required" title="required">*</abbr>
                           </label>
-                          <span class="input-wrapper">
+                          <span class="input-wrapper input-long">
                             <input type="text" class="input-text " name="billing_first_name" id="billing_first_name" placeholder="" value="" autocomplete="given-name">
                           </span>
                         </p>
@@ -77,10 +77,10 @@ $url_path = str_replace('\\', '/', $url_path);
                         <!-- Phần input Last Name -->
                         <p class="form-row" id="billing_last_name_field">
                           <label for="billing_last_name" class>
-                            Last name&nbsp;
+                            Last name
                             <abbr class="required" title="required">*</abbr>
                           </label>
-                          <span class="input-wrapper">
+                          <span class="input-wrapper input-long">
                             <input type="text" class="input-text " name="billing_last_name" id="billing_last_name" placeholder="" value="" autocomplete="family-name">
                           </span>
                         </p>
@@ -89,7 +89,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                     <p class="form-row" id="billing_company_field">
                       <label for="billing_company" class>
-                        Company name&nbsp;
+                        Company name
                         <span class="optional">(optional)</span>
                       </label>
                       <span class="input-wrapper input-long">
@@ -98,7 +98,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </p>
                     <p class="form-row" id="billing_country_field">
                       <label for="billing_country" class>
-                        Country&nbsp;
+                        Country
                         <abbr class="required" title="required">*</abbr>
                       </label>
                       <span class="input-wrapper input-long">
@@ -358,7 +358,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </p>
                     <p class="form-row" id="billing_address_1_field">
                       <label for="billing_address_1" class>
-                        Street address&nbsp;
+                        Street address
                         <abbr class="required" title="required">*</abbr>
                       </label>
                       <span class="input-wrapper input-long">
@@ -367,7 +367,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </p>
                     <p class="form-row" id="billing_postcode_field">
                       <label for="billing_postcode" class>
-                        Postcode / ZIP&nbsp;
+                        Postcode / ZIP
                         <abbr class="required" title="required">*</abbr>
                       </label>
                       <span class="input-wrapper input-long">
@@ -376,7 +376,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </p>
                     <p class="form-row" id="billing_city_field">
                       <label for="billing_city" class>
-                        Town / City&nbsp;
+                        Town / City
                         <abbr class="required" title="required">*</abbr>
                       </label>
                       <span class="input-wrapper input-long">
@@ -385,7 +385,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </p>
                     <p class="form-row" id="billing_phone_field">
                       <label for="billing_phone" class>
-                        Phone&nbsp;
+                        Phone
                         <abbr class="required" title="required">*</abbr>
                       </label>
                       <span class="input-wrapper input-long">
@@ -394,7 +394,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </p>
                     <p class="form-row" id="billing_email_field">
                       <label for="billing_email" class>
-                        Email address &nbsp;
+                        Email address 
                         <abbr class="required" title="required">*</abbr>
                       </label>
                       <span class="input-wrapper input-long">
@@ -412,7 +412,7 @@ $url_path = str_replace('\\', '/', $url_path);
                   <div class="vc-additional-fields_field-wrapper">
                     <p class="form-row notes">
                       <label for="order_comments">
-                        Order notes&nbsp;
+                        Order notes
                         <span class="optional">(optional)</span>
                       </label>
                       <span class="input-additional input-long">
@@ -437,7 +437,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <tbody>
                   <tr class="cart_item text-center">
                     <td class="product-name">
-                      Diablo&nbsp;
+                      Diablo
                       <strong class="product-quantity">× 1</strong>
                     </td>
                     <td class="product-total">
@@ -494,5 +494,4 @@ $url_path = str_replace('\\', '/', $url_path);
       </div>
     </div>
   </div>
-</div>
 </div>

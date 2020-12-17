@@ -1,5 +1,6 @@
 .type-96 {
-  font-size: 1rem;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-size: .77778rem;
   line-height: 1.5;
   color: #888;
   background-image: url(../images/bg.png);
@@ -50,9 +51,7 @@
   margin-top: 20px;
   padding: 16px 32px;
   margin-bottom: 32px;
-  border-top: 2px solid #1e85be;
   background: #f7f7f7;
-  font-family: 'OpenSans';
 }
 .type-96 .checkout-form .coupon span {
   padding-left: 24px;
@@ -84,10 +83,7 @@
   padding: 20px;
 }
 .type-96 .checkout-form #form-code .form-code input {
-  padding: 11px 14px 13px;
-  width: 100%;
-  background: #3b3331;
-  border: 2px solid #1d2326;
+  padding: .55556rem;
   margin-bottom: 26px;
   color: #dce4e8;
 }
@@ -99,13 +95,14 @@
   font-size: 14px;
 }
 .type-96 .checkout-form #form-code .form-code a {
-  font-size: 14px;
-  font-family: 'OpenSans';
-  color: #dce4e8;
-  padding: 6px 14px 9px;
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: .83333rem;
+  color: #3b3331;
+  padding: 1.33333rem 1.11111rem 1.22222rem;
   text-transform: uppercase;
   letter-spacing: 3px;
-  background: #3b3331;
+  background-color: #ddd;
   margin-top: 5px;
 }
 .type-96 .checkout-form #form-code .form-code a:hover {
