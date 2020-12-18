@@ -17,10 +17,12 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="col-md-8 col-xs-8">
         <div class="checkout-form">
           <div class="container-fluid">
+          <div class="coupon">
+          RETURNING CUSTOMER?
+              <a href="#" class="show-coupon">CLICK HERE TO LOGIN</a>
+            </div>
             <div class="coupon">
-              <span>
                 Have a coupon ?
-              </span>
               <a href="#" class="show-coupon">Click here to enter your code</a>
             </div>
             <div id="form-code">
@@ -429,44 +431,44 @@ $url_path = str_replace('\\', '/', $url_path);
               <table class="table table-bordered checkout-review-order-table">
                 <thead>
                   <tr>
-                    <th class="product-name text-center">Product</th>
-                    <th class="product-total text-center">Total</th>
+                    <th class="product-name text-left">Product</th>
+                    <th class="product-total text-left">Subtotal</th>
                   </tr>
                 </thead>
 
                 <tbody>
-                  <tr class="cart_item text-center">
+                  <tr class="cart_item text-left">
                     <td class="product-name">
                       Diablo
                       <strong class="product-quantity">× 1</strong>
                     </td>
                     <td class="product-total">
-                      <span class="product-price">
-                        <span class="product-price-symbol">$</span>
-                        3.50
+                      <span class="product-price product-price-per-item">
+                        <span class="product-price-symbol">£</span>
+                        650.00
                       </span>
                     </td>
                   </tr>
                 </tbody>
 
                 <tfoot>
-                  <tr class="cart-subtotal text-center">
-                    <th class="text-center">Subtotal</th>
+                  <tr class="cart-subtotaltext-left">
+                    <th class="text-left">Subtotal</th>
                     <td>
-                      <span class="product-price">
-                        <span class="product-price-symbol">$</span>
-                        3.50
+                      <span class="product-price product-price-subtotal">
+                        <span class="product-price-symbol">£</span>
+                        650.00
                       </span>
                     </td>
                   </tr>
 
-                  <tr class="order-total text-center">
-                    <th class="text-center">Total</th>
+                  <tr class="order-total text-left">
+                    <th class="text-left">Total</th>
                     <td>
                       <strong>
-                        <span class="product-price">
-                          <span class="product-price-symbol">$</span>
-                          3.50
+                        <span class="product-price product-price-total">
+                          <span class="product-price-symbol">£</span>
+                          650.00
                         </span>
                       </strong>
                     </td>

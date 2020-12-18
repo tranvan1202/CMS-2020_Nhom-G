@@ -3,7 +3,11 @@
 	font-family: Roboto Condensed;
 }
 @font-face {
-	src: url(../fonts/Dosis-Light.ttf);
+	src: url(../fonts/Dosis-ExtraBold.ttf);
 	font-family: Dosis;
+}
+@font-face {
+	src: url(../fonts/Dosis-Regular.ttf);
+	font-family: Dosis-Regular;
 }
 

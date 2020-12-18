@@ -3,6 +3,10 @@
 	Helvetica,
 	Arial,
 	sans-serif;
+	@font_Dosis-Regular: 'Dosis-Regular',
+	Helvetica,
+	Arial,
+	sans-serif;
 	@font_Roboto: 'Roboto Condensed',
 	Helvetica,
 	Arial,
@@ -72,7 +76,7 @@
 
 	h3 {
 		margin-bottom: .5rem;
-		font-family: Dosis, Helvetica, Arial, sans-serif;
+		font-family: @font_Dosis;
 		font-weight: 800;
 		line-height: 1.2;
 		color: @color_black;
@@ -84,34 +88,37 @@
 	.checkout-form {
 		.coupon {
 			margin-top: 20px;
-			padding: 16px 32px;
 			margin-bottom: 32px;
 			background: @color_bg;
+			padding-left: 24px;
+			position: relative;
+			font-size: .87778rem;
+			color: @color_black;
 
-			span {
-				padding-left: 24px;
-				position: relative;
-				font-size: 16px;
-				color: @color_black;
+			border-top: 0;
+			text-shadow: none;
+			padding: .33333rem .33333rem .33333rem 3.33333rem !important;
+
+			line-height: 2.77778rem;
+			text-transform: uppercase;
+			font-family: @font_Dosis;
+			font-weight: 800;
+			box-shadow: none;
+
+			&:before {
+				content: "\f129";
+				font-family: FontAwesome;
+				display: inline-block;
+				position: absolute;
+				top: 12%;
+				left: 1.5em;
+				font-size: 1rem;
 			}
 
 			a {
 				color: @color_black;
-				font-size: 16px;
-
-				&:hover {
-					color: #ffc851;
-					text-decoration: none;
-				}
-			}
-
-			.active {
-				color: #ffc851;
-				text-decoration: none;
-
-				&:hover {
-					color: #dce4e8;
-				}
+				font-size: .87778rem;
+				text-decoration: underline;
 			}
 		}
 
@@ -122,6 +129,7 @@
 
 			.form-code {
 				padding: 20px;
+
 				input {
 					padding: .55556rem;
 					margin-bottom: 26px;
@@ -218,6 +226,42 @@
 			}
 		}
 
+		.checkout-review-order {
+			.table-bordered {
+				td {
+					border: none;
+				}
+
+				th {
+					border: none;
+				}
+			}
+
+			table {
+				td {
+					border-top: 1px solid #dee2e6 !important;
+					text-align: left;
+					.product-price-subtotal{
+						color: @color_black;
+						font-weight: 800;
+					}
+					.product-price-total{
+						color: @color_black;
+						font-weight: 800;
+					}
+				}
+
+				th {
+					border-top: 1px solid #dee2e6 !important;
+					text-align: left;
+					font-family: @font_Dosis;
+					font-weight: 800;
+					text-transform: uppercase;
+					color: @color_black;
+				}
+			}
+		}
+
 		.checkout-payment {
 			padding-bottom: 20px;
 			padding-right: 15px;
@@ -229,25 +273,40 @@
 				border-bottom: 1px solid @color_bg;
 				margin: 0;
 				display: block;
-				list-style-type: disc;
-				margin-block-start: 1em;
-				margin-block-end: 1em;
-				margin-inline-start: 0px;
-				margin-inline-end: 0px;
-				padding-inline-start: 40px;
+				padding: 1em;
 				margin: 0;
+				list-style-type: none;
 
 				.payment-methods-notice {
 					line-height: 2;
 					text-align: left;
 					margin: 0;
-					font-weight: 400;
 					border-bottom: 1px solid #a46497;
 					word-wrap: break-word;
 					border-bottom-color: #ebedf2;
 					padding: .33333rem .33333rem .33333rem 3.33333rem !important;
-					font-family: Dosis, Helvetica, Arial, sans-serif;
+					font-family: @font_Dosis-Regular;
 					text-transform: uppercase;
+					color: #3b3331;
+					font-weight: 500;
+					font-size: 0.8rem;
+
+					&:before {
+						display: inline-block;
+						position: absolute;
+						display: inline-block;
+						position: absolute;
+						top: 1em;
+						left: 1.5em;
+						content: "\f129";
+						background-color: transparent;
+						color: #3b3331;
+						font-size: 1rem;
+						font-family: FontAwesome;
+						padding-top: 0;
+						box-shadow: none;
+
+					}
 				}
 			}
 

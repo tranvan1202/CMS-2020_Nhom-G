@@ -24,8 +24,11 @@ $less->compileFile('less/96.less', 'css/96.css');
 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/96-fonts.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/96.css" rel="stylesheet" type="text/css" />
+
+        <link rel="icon" type="image/png" href="#">
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         

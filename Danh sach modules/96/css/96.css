@@ -39,7 +39,7 @@
 }
 .type-96 h3 {
   margin-bottom: .5rem;
-  font-family: Dosis, Helvetica, Arial, sans-serif;
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.2;
   color: #3b3331;
@@ -49,30 +49,34 @@
 }
 .type-96 .checkout-form .coupon {
   margin-top: 20px;
-  padding: 16px 32px;
   margin-bottom: 32px;
   background: #f7f7f7;
-}
-.type-96 .checkout-form .coupon span {
   padding-left: 24px;
   position: relative;
-  font-size: 16px;
+  font-size: .87778rem;
   color: #3b3331;
+  border-top: 0;
+  text-shadow: none;
+  padding: .33333rem .33333rem .33333rem 3.33333rem !important;
+  line-height: 2.77778rem;
+  text-transform: uppercase;
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  box-shadow: none;
+}
+.type-96 .checkout-form .coupon:before {
+  content: "\f129";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: absolute;
+  top: 12%;
+  left: 1.5em;
+  font-size: 1rem;
 }
 .type-96 .checkout-form .coupon a {
   color: #3b3331;
-  font-size: 16px;
-}
-.type-96 .checkout-form .coupon a:hover {
-  color: #ffc851;
-  text-decoration: none;
-}
-.type-96 .checkout-form .coupon .active {
-  color: #ffc851;
-  text-decoration: none;
-}
-.type-96 .checkout-form .coupon .active:hover {
-  color: #dce4e8;
+  font-size: .87778rem;
+  text-decoration: underline;
 }
 .type-96 .checkout-form #form-code {
   border: 2px solid #f7f7f7;
@@ -160,6 +164,32 @@
   width: 47%;
   overflow: visible;
 }
+.type-96 .checkout-form .checkout-review-order .table-bordered td {
+  border: none;
+}
+.type-96 .checkout-form .checkout-review-order .table-bordered th {
+  border: none;
+}
+.type-96 .checkout-form .checkout-review-order table td {
+  border-top: 1px solid #dee2e6 !important;
+  text-align: left;
+}
+.type-96 .checkout-form .checkout-review-order table td .product-price-subtotal {
+  color: #3b3331;
+  font-weight: 800;
+}
+.type-96 .checkout-form .checkout-review-order table td .product-price-total {
+  color: #3b3331;
+  font-weight: 800;
+}
+.type-96 .checkout-form .checkout-review-order table th {
+  border-top: 1px solid #dee2e6 !important;
+  text-align: left;
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #3b3331;
+}
 .type-96 .checkout-form .checkout-payment {
   padding-bottom: 20px;
   padding-right: 15px;
@@ -171,24 +201,35 @@
   border-bottom: 1px solid #f7f7f7;
   margin: 0;
   display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  padding: 1em;
+  list-style-type: none;
 }
 .type-96 .checkout-form .checkout-payment .payment_methods .payment-methods-notice {
   line-height: 2;
   text-align: left;
   margin: 0;
-  font-weight: 400;
   border-bottom: 1px solid #a46497;
   word-wrap: break-word;
   border-bottom-color: #ebedf2;
   padding: .33333rem .33333rem .33333rem 3.33333rem !important;
-  font-family: Dosis, Helvetica, Arial, sans-serif;
+  font-family: 'Dosis-Regular', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  color: #3b3331;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.type-96 .checkout-form .checkout-payment .payment_methods .payment-methods-notice:before {
+  display: inline-block;
+  position: absolute;
+  top: 1em;
+  left: 1.5em;
+  content: "\f129";
+  background-color: transparent;
+  color: #3b3331;
+  font-size: 1rem;
+  font-family: FontAwesome;
+  padding-top: 0;
+  box-shadow: none;
 }
 .type-96 .checkout-form .checkout-payment .btn-primary {
   background: #d80019;
