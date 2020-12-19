@@ -1,0 +1,86 @@
+.type-46 {
+  font-family: Roboto Condensed, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #888;
+}
+@font-face {
+  font-family: 'Dosis-Bold';
+  src: url('../fonts/Dosis-Bold.ttf.');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed'), local('RobotoCondensed'), url("../fonts/RobotoCondensed-Bold.ttf") format('truetype');
+}
+@media (min-width: 1700px) {
+  .type-46 .card {
+    margin-top: -70%;
+  }
+}
+.type-46 .featured-panel {
+  padding: 1.66667rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05), 0 2px 6px rgba(0,0,0,0.15);
+  background-color: #fff;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.type-46 .featured-panel .pricing-list__item {
+  font-size: 0;
+  margin-bottom: .44444rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.type-46 .featured-panel .pricing-list__item .pricing-list__badge {
+  display: inline-block;
+  font-size: .72222rem;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #fff;
+  font-family: Dosis-Bold, Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  background-color: #d80019;
+  padding: .38889rem .38889rem .27778rem;
+  margin-top: -2px;
+  margin-left: .5rem;
+}
+.type-46 .featured-panel .pricing-list__item .pricing-list__title {
+  padding-left: .5rem;
+  text-transform: uppercase;
+  font-size: .83333rem;
+  font-weight: 800;
+  color: #3b3331;
+  padding-right: .11111rem;
+}
+.type-46 .featured-panel .pricing-list__item .pricing-list__line {
+  position: relative;
+  flex: 1;
+}
+.type-46 .featured-panel .pricing-list__item .pricing-list__line:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background: repeating-linear-gradient(90deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1) 2px,transparent 0,transparent 6px);
+  top: .77778rem;
+  left: .55556rem;
+  width: calc(98.88889%);
+}
+.type-46 .featured-panel .pricing-list__item .pricing-list__price {
+  font-family: Dosis, Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: .83333rem;
+  padding-left: .11111rem;
+  color: #3b3331;
+  float: right;
+  padding-top: 1px;
+}
+.type-46 .featured-panel .pricing-list__item .pricing-list__description {
+  margin-top: .11111rem;
+  margin-bottom: .72222rem;
+  font-size: .83333rem;
+  width: 100%;
+  padding-left: .5rem;
+}

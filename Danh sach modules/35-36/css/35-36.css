@@ -1,0 +1,77 @@
+.type-35-36 {
+  background-image: url('../images/shaka-background.png');
+}
+.type-35-36 .type-35-36__container {
+  font-family: Dosis, Helvetica, Arial, sans-serif;
+  color: #3b3331;
+}
+.type-35-36 .type-35-36__container .wc-tabs {
+  border-bottom: none;
+  position: relative;
+  width: 100%;
+  padding-bottom: 1.38889rem;
+}
+.type-35-36 .type-35-36__container .wc-tabs::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(90deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1) 2px,transparent 0,transparent 6px);
+}
+.type-35-36 .type-35-36__container .wc-tabs a {
+  display: inline-block;
+  border: 0;
+  padding: .83333rem 1.38889rem;
+  color: #888;
+  font-weight: 800;
+  font-size: .83333rem;
+}
+.type-35-36 .type-35-36__container .wc-tabs a:hover {
+  border: none;
+}
+.type-35-36 .type-35-36__container .wc-tabs .description_first {
+  position: relative;
+}
+.type-35-36 .type-35-36__container .wc-tabs .description_first::before {
+  position: absolute;
+  content: "";
+  height: 2.22222rem;
+  width: 2px;
+  right: -1px;
+  left: inherit;
+  top: calc(18.88889%);
+  background: repeating-linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1) 2px,transparent 0,transparent 6px);
+  box-shadow: none;
+  border-width: 0;
+  border-radius: 0;
+}
+.type-35-36 .type-35-36__container .wc-tabs .active {
+  border: none;
+  color: #3b3331;
+}
+.type-35-36 .type-35-36__container .type-35 .woo-tabs-panel {
+  font-size: 1rem;
+  margin-top: 1.66667rem;
+  margin-bottom: 2.5rem;
+}
+.type-35-36 .type-35-36__container .type-36 .woo-tabs-panel-comment {
+  font-size: 1rem;
+  margin-top: 1.66667rem;
+  margin-bottom: 2.5rem;
+}
+.type-35-36 .type-35-36__container .type-36 a {
+  color: #448bc6;
+}
+.type-35-36 .type-35-36__container .type-36 .text-small {
+  font-size: .83333rem;
+}
+.type-35-36 .type-35-36__container h2 {
+  font-size: 1.11111rem;
+  margin-bottom: .83333rem;
+  font-weight: 800;
+}
+.type-35-36 .type-35-36__container p {
+  color: #888;
+}

@@ -1,0 +1,334 @@
+.type-96 {
+	@font_Dosis: 'Dosis',
+	Helvetica,
+	Arial,
+	sans-serif;
+	@font_Dosis-Regular: 'Dosis-Regular',
+	Helvetica,
+	Arial,
+	sans-serif;
+	@font_Roboto: 'Roboto Condensed',
+	Helvetica,
+	Arial,
+	sans-serif;
+
+	@color_text: #888;
+	@color_bg: #f7f7f7;
+	@color_border_table: #888;
+	@color_black: #3b3331;
+	@color_red: #d80019;
+
+	font-family: @font_Roboto;
+	font-size: .77778rem;
+	line-height: 1.5;
+	color: @color_text;
+
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+	background-position: top left;
+	background-attachment: scroll;
+
+
+
+	label {
+		display: block;
+		line-height: 2;
+		font-size: .77778rem;
+		margin-bottom: .5rem;
+	}
+
+	// .container {
+	// 	margin-left: 0;
+	// }
+	// .table-bordered, .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+	// 	border: 1px solid @color_border_table !important;
+	// }
+	// select {
+	// 	border: solid 2px #dce4e8 !important;
+	// 	line-height: 38px;
+	// 	background: #121618 !important;
+	// }
+	input[type="text"],
+	textarea,
+	input[type="tel"],
+	input[type="email"],
+	select {
+		width: 100%;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		box-shadow: none;
+		border-radius: .11111rem;
+		padding: .55556rem;
+		font-family: @font_Roboto;
+		font-size: .77778rem;
+	}
+
+	textarea {
+		height: 4em;
+		line-height: 1.5;
+		display: block;
+		box-shadow: none;
+	}
+
+	.input-long {
+		width: 200%;
+	}
+
+	h3 {
+		margin-bottom: .5rem;
+		font-family: @font_Dosis;
+		font-weight: 800;
+		line-height: 1.2;
+		color: @color_black;
+		font-size: .83333rem;
+		margin-top: .83333rem;
+		margin-bottom: .83333rem;
+	}
+
+	.checkout-form {
+		.coupon {
+			margin-top: 20px;
+			margin-bottom: 32px;
+			background: @color_bg;
+			padding-left: 24px;
+			position: relative;
+			font-size: .87778rem;
+			color: @color_black;
+
+			border-top: 0;
+			text-shadow: none;
+			padding: .33333rem .33333rem .33333rem 3.33333rem !important;
+
+			line-height: 2.77778rem;
+			text-transform: uppercase;
+			font-family: @font_Dosis;
+			font-weight: 800;
+			box-shadow: none;
+
+			&:before {
+				content: "\f129";
+				font-family: FontAwesome;
+				display: inline-block;
+				position: absolute;
+				top: 12%;
+				left: 1.5em;
+				font-size: 1rem;
+			}
+
+			a {
+				color: @color_black;
+				font-size: .87778rem;
+				text-decoration: underline;
+			}
+		}
+
+		#form-code {
+			border: 2px solid @color_bg;
+			margin-bottom: 32px;
+			display: none;
+
+			.form-code {
+				padding: 20px;
+
+				input {
+					padding: .55556rem;
+					margin-bottom: 26px;
+					color: #dce4e8;
+
+					&:focus {
+						outline: none;
+					}
+
+					&::placeholder {
+						letter-spacing: 3px;
+						font-size: 14px;
+					}
+				}
+
+				a {
+					font-family: @font_Dosis;
+					font-weight: 800;
+					font-size: .83333rem;
+					color: @color_black;
+					padding: 1.33333rem 1.11111rem 1.22222rem;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					background-color: #ddd;
+					margin-top: 5px;
+
+					&:hover {
+						background: #ffc851;
+						color: @color_black;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+
+		.khung_error {
+			display: none;
+
+			.woocommerce-error {
+				padding: 1em 2em 1em 3.5em;
+				margin: 0 0 2em;
+				position: relative;
+				background-color: @color_black;
+				color: @color_bg;
+				border-top: 3px solid @color_red;
+				list-style: none outside;
+				width: auto;
+				word-wrap: break-word;
+
+				li {
+					font-weight: bold;
+					font-size: 17px;
+					list-style: none;
+					line-height: 25px;
+
+					&:before {
+						color: #ffc851;
+						font-weight: 700;
+						padding-right: 10px;
+						content: "\002022";
+					}
+
+					span {
+						font-weight: normal;
+						font-size: 15px;
+					}
+				}
+			}
+		}
+
+		.form-row {
+			padding: 3px;
+			margin: 0 0 6px;
+
+			.required {
+				color: red;
+				font-weight: 700;
+				border: 0 !important;
+				text-decoration: none;
+			}
+		}
+
+		.left-content {
+			.form-row-first {
+				float: left;
+				width: 47%;
+				overflow: visible;
+			}
+
+			.form-row-last {
+				float: right;
+				width: 47%;
+				overflow: visible;
+			}
+		}
+
+		.checkout-review-order {
+			.table-bordered {
+				td {
+					border: none;
+				}
+
+				th {
+					border: none;
+				}
+			}
+
+			table {
+				td {
+					border-top: 1px solid #dee2e6 !important;
+					text-align: left;
+					.product-price-subtotal{
+						color: @color_black;
+						font-weight: 800;
+					}
+					.product-price-total{
+						color: @color_black;
+						font-weight: 800;
+					}
+				}
+
+				th {
+					border-top: 1px solid #dee2e6 !important;
+					text-align: left;
+					font-family: @font_Dosis;
+					font-weight: 800;
+					text-transform: uppercase;
+					color: @color_black;
+				}
+			}
+		}
+
+		.checkout-payment {
+			padding-bottom: 20px;
+			padding-right: 15px;
+			overflow: hidden;
+			background: @color_bg;
+			position: relative;
+
+			.payment_methods {
+				border-bottom: 1px solid @color_bg;
+				margin: 0;
+				display: block;
+				padding: 1em;
+				margin: 0;
+				list-style-type: none;
+
+				.payment-methods-notice {
+					line-height: 2;
+					text-align: left;
+					margin: 0;
+					border-bottom: 1px solid #a46497;
+					word-wrap: break-word;
+					border-bottom-color: #ebedf2;
+					padding: .33333rem .33333rem .33333rem 3.33333rem !important;
+					font-family: @font_Dosis-Regular;
+					text-transform: uppercase;
+					color: #3b3331;
+					font-weight: 500;
+					font-size: 0.8rem;
+
+					&:before {
+						display: inline-block;
+						position: absolute;
+						display: inline-block;
+						position: absolute;
+						top: 1em;
+						left: 1.5em;
+						content: "\f129";
+						background-color: transparent;
+						color: #3b3331;
+						font-size: 1rem;
+						font-family: FontAwesome;
+						padding-top: 0;
+						box-shadow: none;
+
+					}
+				}
+			}
+
+			.btn-primary {
+				background: @color_red;
+				float: right;
+				color: @color_bg;
+				font-size: 14px;
+				line-height: 16px;
+				letter-spacing: 3px;
+				font-weight: 800 !important;
+				text-transform: uppercase;
+				padding: 1rem 1.66667rem;
+				border: 0;
+				border-radius: 0;
+
+				&:hover {
+					background: @color_black;
+					color: #dce4e8;
+				}
+			}
+
+		}
+	}
+}

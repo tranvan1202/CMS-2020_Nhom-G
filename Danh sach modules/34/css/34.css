@@ -1,0 +1,78 @@
+.type-34 {
+  color: #888;
+  margin-top: 30px;
+  font-family: Roboto Condensed, Helvetica, Arial, sans-serif;
+}
+@font-face {
+  font-family: 'Dosis-Bold';
+  src: url('../fonts/Dosis-Bold.ttf.');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed'), local('RobotoCondensed'), url("../fonts/RobotoCondensed-Regular.ttf") format('truetype');
+}
+.type-34 .entry-summary .product-title {
+  font-family: Dosis-Bold, Helvetica, Arial, sans-serif;
+  color: #3b3331;
+  font-weight: 800;
+  font-size: 1.33333rem;
+  margin-bottom: .16667rem;
+  margin-top: 0;
+}
+.type-34 .entry-summary .price {
+  font-family: Dosis-Bold, Helvetica, Arial, sans-serif;
+  color: #d80019;
+  font-weight: 800;
+  font-size: 1.77778rem;
+  margin-bottom: .44444rem;
+}
+.type-34 .entry-summary .cart {
+  margin: 1.27778rem 0;
+}
+.type-34 .entry-summary .cart .quantity {
+  display: inline-block;
+  width: 10%;
+}
+.type-34 .entry-summary .cart .quantity .input-qty {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 3.8333rem;
+  font-size: .77778rem;
+  background-color: #fff;
+  border: 3px solid #ddd;
+}
+.type-34 .entry-summary .cart .quantity .input-qty:hover {
+  border: 3px solid #bbb;
+}
+.type-34 .entry-summary .cart .quantity .input-qty:focus {
+  border: 3px solid #3b3331;
+  color: #3b3331;
+  outline: none;
+}
+.type-34 .entry-summary .cart .single-add-card {
+  display: inline-block;
+  margin-left: 1.66667rem;
+  background-color: #d80019;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.35);
+  color: #fff;
+  border: none;
+  font-weight: 800;
+  font-size: .83333rem;
+  cursor: pointer;
+  position: relative;
+  padding: 1.33333rem 1.11111rem 1.22222rem;
+}
+.type-34 .entry-summary .product-meta {
+  font-size: .77778rem;
+}
+.type-34 .entry-summary .product-meta .posted-in {
+  display: inline-block;
+}
+.type-34 .entry-summary .product-meta .tagged-as {
+  display: inline-block;
+}

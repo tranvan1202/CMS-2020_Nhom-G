@@ -1,0 +1,92 @@
+.type-45 {
+    @color-black = #3b3331;
+    @font-face {
+        font-family: 'Dosis-Light';
+        src: url('../fonts/Dosis-Light.ttf.');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+    @font-face {
+        font-family: "RobotoCondensed-Regular";
+        font-style: normal;
+        font-weight: 700;
+        src: local('RobotoCondensed-Regular'), local('RobotoCondensed-Regular'), url("../fonts/RobotoCondensed-Regular.ttf") format('truetype');
+    }
+
+    @font-face {
+        font-family: "RobotoCondensed-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: local('RobotoCondensed-Bold'), local('RobotoCondensed-Bold'), url("../fonts/RobotoCondensed-Bold.ttf") format('truetype');
+    }
+
+    @media (min-width: 992px) {
+        .stats-panel {
+            .stats-numbers {
+                .number-counters {
+                    .number-counter {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+    }
+
+    
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #888;
+    background-color: #fff;
+
+    .stats-panel {
+        //width: calc(50% - (0.5 * 30px));
+
+        .stats-title {
+            margin-bottom: 30px;
+            color: @color-black;
+            font-family: RobotoCondensed-Bold;
+        }
+
+        .stats-numbers {
+            .number-counters {
+                .number-counter {
+                    transition: all .1s ease-out;
+                    margin-bottom: 1.66667rem;
+
+                    .number-counter__number {
+                        font-family: Dosis-Light, Helvetica, Arial, sans-serif;
+                        font-weight: 300;
+                        color: @color-black;
+                        font-size: 2rem;
+                        line-height: 1;
+                    }
+
+                    .number-counter__title {
+                        font-weight: 400;
+                        margin-top: .22222rem;
+                        font-family: RobotoCondensed-Regular;
+                    }
+
+                    .number-counter__bar {
+                        position: relative;
+                        height: 3px;
+                        width: 100%;
+                        background-color: #ddd;
+                        margin-top: .55556rem;
+                        .number-counter__bar--progress {
+                            left: 0;
+                            width: 0;
+                            height: inherit;
+                            background: linear-gradient(90deg,#d80019,#5897cc);
+                            transition: all 1s ease-out;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
