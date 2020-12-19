@@ -15,17 +15,7 @@
             }
          }
     }
-    #gallery-lightbox img {
-        //height: 350px;
-        object-fit: cover;
-        cursor: zoom-in;
-    }
-
-    #gallery-lightbox img:hover {
-        opacity: 0.9;
-        transition: 0.5s ease-out;
-    }
-
+    
     .portfolio__gallery {
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -38,6 +28,10 @@
         align-items: flex-start;
         justify-content: flex-start;
 
+        img {
+            object-fit: cover;
+            cursor: zoom-in;
+        }
         .portfolio__gallery-item {
             width: calc(25.3% - .27778rem);
             margin-right: .27778rem;
