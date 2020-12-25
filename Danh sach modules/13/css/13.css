@@ -43,8 +43,18 @@
   text-transform: uppercase;
 }
 .type-13 .type-13__container .lastest-new .lastest-new__content .lastest-new__excerpt {
+  position: relative;
   color: #888888;
   font-size: 0.8888rem;
+}
+.type-13 .type-13__container .lastest-new .lastest-new__content .lastest-new__excerpt::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  bottom: -20px;
+  left: 0;
+  background: repeating-linear-gradient(90deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1) 2px,transparent 0,transparent 6px);
 }
 .type-13 .type-13__container .lastest-new .lastest-new__content .lastest-new__read-more {
   position: relative;
