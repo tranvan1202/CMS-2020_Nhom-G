@@ -13,40 +13,37 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/13.less', 'css/13.css');
+$less->compileFile('less/13-14.less', 'css/13-14.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>13</title>
+    <title>13-14</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="<?php echo $url_path ?>/css/13.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/13-14.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min" rel="stylesheet" type="text/css" />
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/13.less', 'css/13.css');
-        ?>
+    if (!class_exists('lessc')) {
+        include('./libs/lessc.inc.php');
+    }
+    $less = new lessc;
+    $less->compileFile('less/13-14.less', 'css/13-14.css');
+    ?>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <?php include '../13/13-content.php'; ?>
-            </div>
-        </div>
-    </div>
-    <script src="js/13.js"></script>
+
+    <?php include '../13-14/13-14-content.php'; ?>
+
+
+    <script src="js/13-14.js"></script>
 </body>
 
 </html>
