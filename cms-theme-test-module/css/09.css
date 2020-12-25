@@ -1,0 +1,26 @@
+.type-09 {
+  background: #FDFDFD;
+}
+@font-face {
+  font-family: 'Dosis-Bold';
+  src: url('../fonts/Dosis-Bold.ttf.');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Condensed';
+  src: url('../fonts/RobotoCondensed-Regular.ttf.');
+  font-weight: normal;
+  font-style: normal;
+}
+.type-09 .card-deck {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.type-09 .card-deck .card-img-top img {
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
