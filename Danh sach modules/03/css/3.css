@@ -1,0 +1,57 @@
+.type-3 {
+  background: url("../images/shaka-background.png");
+  margin: 30px 0;
+}
+.type-3 .cover-type3 {
+  width: calc(31.5%);
+}
+.type-3 .cover-type3 .panel-grid-cell .cover_content .mr-top {
+  margin-top: 20px;
+}
+.type-3 .cover-type3 .panel-grid-cell .cover_content .fvp-dynamic {
+  position: relative;
+  width: 100%;
+}
+.type-3 .cover-type3 .panel-grid-cell .cover_content .fvp-dynamic .icon_play {
+  position: absolute;
+  z-index: 999;
+  color: #fff;
+  font-size: 115px;
+  left: 35%;
+}
+.type-3 .cover-type3 .panel-grid-cell .cover_content .page-box__content {
+  display: inline-block;
+  vertical-align: top;
+}
+.type-3 .cover-type3 .panel-grid-cell .cover_content .page-box__content .page-box__title {
+  font-size: 1.31111rem;
+  text-transform: uppercase;
+  margin-bottom: .61111rem;
+}
+.type-3 .cover-type3 .panel-grid-cell .cover_content .page-box__content .page-box__title a {
+  color: #3b3331;
+  font-weight: 700;
+}
+.type-3 .cover-type3 .panel-grid-cell .cover_content .page-box__content .page-box__text {
+  font-size: .93333rem;
+  margin-bottom: 0;
+  color: #888888;
+}
+.type-3 .cover-type3 .panel-grid-cell .cover_content .page-box__picture {
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.44444rem;
+}
+.type-3 .cover-type3 .panel-grid-cell .cover_content .page-box__picture .wp-post-image {
+  max-width: 100%;
+  height: auto;
+}
+.type-3 .cover-type3 .panel-grid-cell .cover_content .page-box__more-link {
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .83333rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: .88889rem;
+}
