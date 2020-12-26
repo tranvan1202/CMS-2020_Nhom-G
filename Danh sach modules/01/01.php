@@ -26,6 +26,7 @@ $less->compileFile('less/01.less', 'css/01.css');
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        
 
         <?php
         if (!class_exists('lessc')) {
@@ -37,5 +38,6 @@ $less->compileFile('less/01.less', 'css/01.css');
     </head>
     <body >
         <?php include '../01/01-content.php'; ?>
+        <script src="js/script.js"></script>
     </body>
 </html>
