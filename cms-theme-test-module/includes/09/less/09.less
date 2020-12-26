@@ -1,0 +1,36 @@
+.type-09 {
+    @color_background =#FDFDFD;
+    @font_size_button =80%;
+
+    @font-face {
+        font-family: 'Dosis-Bold';
+        src: url('../fonts/Dosis-Bold.ttf.');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Roboto-Condensed';
+        src: url('../fonts/RobotoCondensed-Regular.ttf.');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    background: @color_background;
+
+    .card-deck {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        .card-img-top {
+            img {
+                display: block;
+                max-width: 300px;
+                max-height: 300px;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+
+}

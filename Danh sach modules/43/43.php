@@ -14,6 +14,7 @@ if (!class_exists('lessc')) {
 
 $less = new lessc;
 $less->compileFile('less/43.less', 'css/43.css');
+$less->compileFile('../44/less/44.less', 'css/44.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +24,7 @@ $less->compileFile('less/43.less', 'css/43.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="<?php echo $url_path ?>/css/43.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/44.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js"></script>
@@ -34,6 +36,7 @@ $less->compileFile('less/43.less', 'css/43.css');
         }
         $less = new lessc;
         $less->compileFile('less/43.less', 'css/43.css');
+        $less->compileFile('../44/less/44.less', 'css/44.css');
         ?>
     </head>
     <body >

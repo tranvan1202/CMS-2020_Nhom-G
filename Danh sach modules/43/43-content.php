@@ -11,10 +11,33 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="featured-image">
-    <a href="#" data-featherlight="image"> <img width="1920" height="450" src="./images/43-bg1.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" srcset="./images/43-bg1.jpg 1920w, ./images/43-bg2.jpg 300w, ./images/43-bg3.jpg 768w, ./images/43-bg4.jpg 1024w, ./images/43-bg5.jpg 540w" sizes="(max-width: 1920px) 100vw, 1920px">
-    </a>
+
+<div id="featured-image" class="featured-image" data-toggle="modal" data-target="#modalBanner">
+    <figure class="portfolio__gallery-item  gallery-item">
+        <img class="img-slide img-fluid" src="./images/43-bg1.jpg" alt="First slide" data-target="#carouselExample" width="1920" height="450">
+    </figure>
 </div>
+
+
+<div class="modal" id="modalBanner" tabindex="-1" role="dialog" aria-hidden="true">
+    <button type="button" class="close m-0 p-3 text-white" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content bg-transparent">
+            <div class="modal-body p-0">
+                <div id="carouselBanner" class="carousel slide carousel-fade" data-ride="false">
+                    <div class="carousel-item active">
+                        <figure class="modal-gallery-item">
+                            <img class="d-block w-100" src="./images/43-bg1.jpg">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-lg-6">
@@ -53,7 +76,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
 
         <div class="col-xs-12 col-lg-6">
-            Test
+           <?php include '../44/44-content.php' ;?>
         </div>
 
     </div>

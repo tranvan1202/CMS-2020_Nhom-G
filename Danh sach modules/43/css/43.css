@@ -3,12 +3,17 @@
   margin-bottom: 3.33333rem;
 }
 .featured-image img {
-  width: 100%;
+  object-fit: cover;
+  cursor: zoom-in;
 }
 .featured-image .img-fluid {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.modal-backdrop {
+  background-color: #000 !important;
+  opacity: 0.9 !important;
 }
 .type-43 {
   line-height: 1.5;

@@ -11,6 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+<div class="container">
 <div class="main">
     <header class="woocommerce-products-header"></header>
     <div class="woocommerce-notices-wrapper"></div>
@@ -26,4 +27,5 @@ $url_path = str_replace('\\', '/', $url_path);
         </select>
         <input type="hidden" name="paged" value="1">
     </form>
+</div>
 </div>
