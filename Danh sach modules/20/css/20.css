@@ -1,0 +1,25 @@
+.content-area {
+  color: #888;
+  position: relative;
+  z-index: 6;
+  margin-bottom: 5rem;
+  max-width: 1140px;
+}
+.content-area .row {
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+.content-area .row .col-xs-12 .sidebar .woocommerce {
+  font-size: .77778rem;
+}
+.content-area .row .col-xs-12 .sidebar .woocommerce .sidebar__headings {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #3b3331;
+  padding-bottom: 1.27778rem;
+  margin-bottom: 1.38889rem;
+}
+.content-area .row .col-xs-12 .sidebar .woocommerce .sidebar__headings ul .product-categories {
+  list-style: none;
+}
