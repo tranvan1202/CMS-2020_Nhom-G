@@ -268,6 +268,48 @@
         font-family: Dosis,Helvetica,Arial,sans-serif;
     }
 
-
-
+    .nav-item {
+        a {
+            text-transform: uppercase;
+            display: block;
+            font-family: Dosis,Helvetica,Arial,sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+            padding: 20px 25px;
+            color: #3b3331;
+            transition: all .1s ease-out;
+        }
+        // .dropdown-toggle::after {
+        //     display: none;
+        // }
+    }
+    .customs {
+        li>.dropdown-menu {
+            border: none;
+            .dropdown-item {
+                border: 1px solid #bf0016;
+                background-color: #d80019;
+                color: #fff;
+                padding: 5px 25px;
+                font-size: 17px !important;
+                &:hover {
+                    background-color: #bf0016;
+                }
+            }
+        }
+    }
+    .the-myth {
+        border: 3px solid #d80019;
+        padding: 5px;
+        text-align: center;
+        color: #d80019;
+        font-weight: 700;
+        font-family: Dosis,Helvetica,Arial,sans-serif;
+        transition: background 0.2s ease, padding 0.8s linear;
+        &:hover {
+            color: #fff;
+            background: #d80019;
+            text-decoration: none;
+        }
+    }
 }
