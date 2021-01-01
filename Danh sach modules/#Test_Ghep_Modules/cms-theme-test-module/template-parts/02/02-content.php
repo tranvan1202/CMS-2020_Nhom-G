@@ -38,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
 					<div class="dropdown widget-info ">
 						<div class="cover-info_lang">
 							<a href="#" class="lang_sel_sel icl-en dropbtn" style="text-decoration: none;">
-								<img class="iclflag" src="http://<?php echo $url_path ?>/images/en.png" alt="en" title="English" style="margin-bottom: 10px;">
+								<img class="iclflag" src="<?php bloginfo('stylesheet_directory'); ?>/images/en.png" alt="en" title="English" style="margin-bottom: 10px;">
 								&nbsp;English
 								<i class="fa fa-chevron-down"></i>
 							</a>

@@ -31,43 +31,30 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="widget  widget_nav_menu">
                             <div class="menu-top-menu-container">
                                 <ul id="menu-top-menu" class="menu">
-                                    <li id="menu-item-44"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-44">
-                                        <a href="https://demo.proteusthemes.com/shaka/extras/">Extras</a>
+                                    <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-44">
+                                        <a href="#">Extras</a>
                                         <ul class="sub-menu">
-                                            <li id="menu-item-955"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-955">
-                                                <a
-                                                    href="https://demo.proteusthemes.com/shaka/extras/pricing/">Pricing</a>
+                                            <li id="menu-item-955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-955">
+                                                <a href="#">Pricing</a>
                                             </li>
-                                            <li id="menu-item-983"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-983">
-                                                <a
-                                                    href="https://demo.proteusthemes.com/shaka/extras/accordion/">Accordion</a>
+                                            <li id="menu-item-983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-983">
+                                                <a href="#">Accordion</a>
                                             </li>
-                                            <li id="menu-item-984"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-984">
-                                                <a href="https://demo.proteusthemes.com/shaka/extras/brochure-box/">Brochure
+                                            <li id="menu-item-984" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-984">
+                                                <a href="#">Brochure
                                                     Box</a></li>
-                                            <li id="menu-item-985"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-985">
-                                                <a href="https://demo.proteusthemes.com/shaka/extras/number-counter/">Number
+                                            <li id="menu-item-985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-985">
+                                                <a href="#">Number
                                                     Counter</a></li>
-                                            <li id="menu-item-986"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-986">
-                                                <a href="https://demo.proteusthemes.com/shaka/extras/skype-button/">Skype
+                                            <li id="menu-item-986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-986">
+                                                <a href="#">Skype
                                                     Button</a></li>
-                                            <li id="menu-item-987"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-987">
-                                                <a href="https://demo.proteusthemes.com/shaka/404">Error 404</a></li>
+                                            <li id="menu-item-987" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-987">
+                                                <a href="#">Error 404</a></li>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-40"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"><a
-                                            href="https://www.proteusthemes.com/docs/shaka/">Documentation</a></li>
-                                    <li id="menu-item-41"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"><a
-                                            href="https://www.proteusthemes.com/pricing/">Buy Theme</a></li>
+                                    <li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"><a href="#">Documentation</a></li>
+                                    <li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"><a href="#">Buy Theme</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -81,30 +68,66 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="header">
 
                 <div class="header__logo">
-                    <a href="https://demo.proteusthemes.com/shaka/">
-                        <img src="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png"
-                            alt="Shaka"
-                            srcset="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo2x.png 2x"
-                            class="img-fluid" width="244" height="50">
+                    <a href="#">
+                        <img src="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png" alt="Shaka" srcset="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo2x.png 2x" class="img-fluid" width="244" height="50">
                     </a>
                 </div>
-                <nav>
-                    <ul class="header_navigation">
-                        <li>
-                            <a class="active" href="#home">Home</a>
-                            <canvas width="61" height="15" class="funky-underline" style="position: absolute; left: 10px; bottom: 38px;"></canvas>
-                        </li>
-                        <li><a href="#news">Service</a></li>
-                        <li><a href="#contact">Event</a></li>
-                        <li ><a href="#about">About us</a></li>
-                        <li ><a href="#about">Blog</a></li>
-                        <li ><a href="#about">Shop</a></li>
-                        <li ><a href="#about">Contract</a></li>
-                        <a href="https://www.proteusthemes.com/pricing/" class="btn  btn-primary-outline  main-navigation__featured-link" target="_blank">BUY THEME NOW</a>
-                    </ul>
-                    
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto customs">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="home" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Home
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Service
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="./events" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Events
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="./about-us" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    About us
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="./blog" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="./shop" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Shop
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="./contact" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" class="the-myth">BUY THEME NOW</a>
+                    </div>
                 </nav>
             </div>
         </div>
+    </div>
+    <div class="container">
+
     </div>
 </div>
