@@ -172,6 +172,7 @@ function eq_less()
 {
 	wp_enqueue_style('less-style-01', get_stylesheet_directory_uri() . '/template-parts/01/less/01.less', array(), null, 'all');
 	wp_enqueue_style('less-style-02', get_stylesheet_directory_uri() . '/template-parts/02/less/02.less', array(), null, 'all');
+	wp_enqueue_style('less-style-06', get_stylesheet_directory_uri() . '/template-parts/06/less/06.less', array(), null, 'all');
 	wp_enqueue_style('less-style-07', get_stylesheet_directory_uri() . '/template-parts/07/less/07.less', array(), null, 'all');
 	wp_enqueue_style('less-style-08', get_stylesheet_directory_uri() . '/template-parts/08/less/08.less', array(), null, 'all');
 	wp_enqueue_style('less-style-09', get_stylesheet_directory_uri() . '/template-parts/09/less/09.less', array(), null, 'all');
@@ -179,6 +180,17 @@ function eq_less()
 	wp_enqueue_style('less-style-11', get_stylesheet_directory_uri() . '/template-parts/11/less/11.less', array(), null, 'all');
 	wp_enqueue_style('less-style-13-14', get_stylesheet_directory_uri() . '/template-parts/13-14/less/13-14.less', array(), null, 'all');
 	wp_enqueue_style('less-style-15', get_stylesheet_directory_uri() . '/template-parts/15/less/15.less', array(), null, 'all');
+	wp_enqueue_style('less-style-16', get_stylesheet_directory_uri() . '/template-parts/16/less/16.less', array(), null, 'all');
+	wp_enqueue_style('less-style-22', get_stylesheet_directory_uri() . '/template-parts/22/less/22.less', array(), null, 'all');
+
+	//CSS Trang About Us
+	wp_enqueue_style('less-style-26', get_stylesheet_directory_uri() . '/template-parts/26/less/26.less', array(), null, 'all');
+	wp_enqueue_style('less-style-27', get_stylesheet_directory_uri() . '/template-parts/27/less/27.less', array(), null, 'all');
+	wp_enqueue_style('less-style-28', get_stylesheet_directory_uri() . '/template-parts/28/less/28.less', array(), null, 'all');
+	wp_enqueue_style('less-style-29', get_stylesheet_directory_uri() . '/template-parts/29/less/29.less', array(), null, 'all');
+
+	wp_enqueue_style('less-style-30', get_stylesheet_directory_uri() . '/template-parts/30/less/30.less', array(), null, 'all');
+	wp_enqueue_style('less-style-31-32', get_stylesheet_directory_uri() . '/template-parts/31-32/less/31&32.less', array(), null, 'all');
 	wp_enqueue_style('less-style-42', get_stylesheet_directory_uri() . '/template-parts/42/less/42.less', array(), null, 'all');
 }
 add_action('wp_enqueue_scripts', 'eq_less', 99);

@@ -14,6 +14,12 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-07">
     <div class="container">
         <div class="row">
+            <div class="title-about-us">
+                <a class="btn  btn-dark  js-funky-box  btn-funky  is-btn-title" href="#">
+                    ABOUT US
+                </a>
+            </div>
+
             <div class="col-md-12">
                 <div class="title-widget">
                     <h2>We’re a bold bunch of riders, explorers & <br>hard-core thrill seekers that bring it.</h2>
