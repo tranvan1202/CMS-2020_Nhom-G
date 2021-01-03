@@ -192,6 +192,25 @@ function eq_less()
 	wp_enqueue_style('less-style-30', get_stylesheet_directory_uri() . '/template-parts/30/less/30.less', array(), null, 'all');
 	wp_enqueue_style('less-style-31-32', get_stylesheet_directory_uri() . '/template-parts/31-32/less/31&32.less', array(), null, 'all');
 	wp_enqueue_style('less-style-42', get_stylesheet_directory_uri() . '/template-parts/42/less/42.less', array(), null, 'all');
+
+	//CSS Trang Home 2
+	wp_enqueue_style('less-style-44', get_stylesheet_directory_uri() . '/template-parts/44/less/44.less', array(), null, 'all');
+	wp_enqueue_style('less-style-50', get_stylesheet_directory_uri() . '/template-parts/50/less/50.less', array(), null, 'all');
+	wp_enqueue_style('less-style-69', get_stylesheet_directory_uri() . '/template-parts/69/less/69.less', array(), null, 'all');
+	wp_enqueue_style('less-style-70', get_stylesheet_directory_uri() . '/template-parts/70/less/70.less', array(), null, 'all');
+	wp_enqueue_style('less-style-71', get_stylesheet_directory_uri() . '/template-parts/71/less/71.less', array(), null, 'all');
+	wp_enqueue_style('less-style-72', get_stylesheet_directory_uri() . '/template-parts/72/less/72.less', array(), null, 'all');
+	wp_enqueue_style('less-style-73', get_stylesheet_directory_uri() . '/template-parts/73/less/73.less', array(), null, 'all');
+	wp_enqueue_style('less-style-74', get_stylesheet_directory_uri() . '/template-parts/74/less/74.less', array(), null, 'all');
+	wp_enqueue_style('less-style-75', get_stylesheet_directory_uri() . '/template-parts/75/less/75.less', array(), null, 'all');
+	wp_enqueue_style('less-style-76', get_stylesheet_directory_uri() . '/template-parts/76/less/76.less', array(), null, 'all');
+	wp_enqueue_style('less-style-77', get_stylesheet_directory_uri() . '/template-parts/77/less/77.less', array(), null, 'all');
+	wp_enqueue_style('less-style-78', get_stylesheet_directory_uri() . '/template-parts/78/less/78.less', array(), null, 'all');
+	wp_enqueue_style('less-style-79', get_stylesheet_directory_uri() . '/template-parts/79/less/79.less', array(), null, 'all');
+	wp_enqueue_style('less-style-80', get_stylesheet_directory_uri() . '/template-parts/80/less/80.less', array(), null, 'all');
+	wp_enqueue_style('less-style-81', get_stylesheet_directory_uri() . '/template-parts/81/less/81.less', array(), null, 'all');
+	wp_enqueue_style('less-style-83', get_stylesheet_directory_uri() . '/template-parts/83/less/83.less', array(), null, 'all');
+	wp_enqueue_style('less-style-97', get_stylesheet_directory_uri() . '/template-parts/97/less/97.less', array(), null, 'all');
 }
 add_action('wp_enqueue_scripts', 'eq_less', 99);
 
