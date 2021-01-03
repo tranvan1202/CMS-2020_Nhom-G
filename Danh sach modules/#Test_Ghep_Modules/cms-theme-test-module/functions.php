@@ -211,6 +211,9 @@ function eq_less()
 	wp_enqueue_style('less-style-81', get_stylesheet_directory_uri() . '/template-parts/81/less/81.less', array(), null, 'all');
 	wp_enqueue_style('less-style-83', get_stylesheet_directory_uri() . '/template-parts/83/less/83.less', array(), null, 'all');
 	wp_enqueue_style('less-style-97', get_stylesheet_directory_uri() . '/template-parts/97/less/97.less', array(), null, 'all');
+
+	//CSS Trang Services -> All 
+	wp_enqueue_style('less-style-33', get_stylesheet_directory_uri() . '/template-parts/33/less/33.less', array(), null, 'all');
 }
 add_action('wp_enqueue_scripts', 'eq_less', 99);
 

@@ -31,13 +31,13 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="widget-footer">
                         <h6 class="footer-top_heading ">SERVICES</h6>
                         <ul class="menu_service">
-                            <li><a href="#">All Services</a></li>
-                            <li><a href="#">Surfing</a></li>
-                            <li><a href="#">Windsurfing</a></li>
-                            <li><a href="#">Kiting</a></li>
-                            <li><a href="#">Diving and Snorkeling</a></li>
-                            <li><a href="#">Water-skiing and Suping</a></li>
-                            <li><a href="#">Sailing and Navigation</a></li>
+                            <li><a href="./services">All Services</a></li>
+                            <li><a href="./services/surfing">Surfing</a></li>
+                            <li><a href="./services/windsurfing">Windsurfing</a></li>
+                            <li><a href="./services/kiting">Kiting</a></li>
+                            <li><a href="./services/waterskiing-and-suping">Water-skiing and Suping</a></li>
+                            <li><a href="./services/diving-and-snorkeling">Diving and Snorkeling</a></li>
+                            <li><a href="./services/sailing-and-navigation">Sailing and Navigation</a></li>
                         </ul>
                     </div>
                 </div>
@@ -45,13 +45,13 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="widget-footer">
                         <h6 class="footer-top_heading ">EXTRAS</h6>
                         <ul class="menu_extras">
-                            <li><a href="#">Extras</a></li>
-                            <li><a href="#">Extras</a></li>
-                            <li><a href="#">Accordion</a></li>
-                            <li><a href="#">Brochure Box</a></li>
-                            <li><a href="#">Number Counter</a></li>
-                            <li><a href="#">Skype Button</a></li>
-                            <li><a href="#">Error 404</a></li>
+                            <li><a href="./extras">Extras</a></li>
+                            <li><a href="./extras">Pricing</a></li>
+                            <li><a href="./extras">Accordion</a></li>
+                            <li><a href="./extras">Brochure Box</a></li>
+                            <li><a href="./extras">Number Counter</a></li>
+                            <li><a href="./extras">Skype Button</a></li>
+                            <li><a href="./extras">Error 404</a></li>
                         </ul>
                     </div>
                 </div>
@@ -59,9 +59,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="widget-footer">
                         <h6 class="footer-top_heading ">SHOP</h6>
                         <ul class="menu_shop">
-                            <li><a href="#">Diving Fins</a></li>
-                            <li><a href="#">Neoprene Suit</a></li>
-                            <li><a href="#">Snorkel mask</a></li>
+                            <li><a href="./shop">Diving Fins</a></li>
+                            <li><a href="./shop">Neoprene Suit</a></li>
+                            <li><a href="./shop">Snorkel mask</a></li>
 
                         </ul>
                     </div>

@@ -32,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="menu-top-menu-container">
                                 <ul id="menu-top-menu" class="menu">
                                     <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-44">
-                                        <a href="#">Extras</a>
+                                        <a href="./extras">Extras</a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-955">
                                                 <a href="#">Pricing</a>
@@ -68,7 +68,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="header">
 
                 <div class="header__logo">
-                    <a href="#">
+                    <a href="./home">
                         <img src="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png" alt="Shaka" srcset="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo2x.png 2x" class="img-fluid" width="244" height="50">
                     </a>
                 </div>
@@ -89,11 +89,16 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Service
+                                    Services
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="./services">All Services</a>
+                                    <a class="dropdown-item" href="./services/surfing">Surfing</a>
+                                    <a class="dropdown-item" href="./services/windsurfing">Windsurfing</a>
+                                    <a class="dropdown-item" href="./services/kiting">KITING</a>
+                                    <a class="dropdown-item" href="./services/waterskiing-and-suping">WATER-SKIING AND SUPING</a>
+                                    <a class="dropdown-item" href="./services/diving-and-snorkeling">DIVING AND SNORKELING</a>
+                                    <a class="dropdown-item" href="./services/sailing-and-navigation">SAILING AND NAVIGATION</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link" href="./events" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
