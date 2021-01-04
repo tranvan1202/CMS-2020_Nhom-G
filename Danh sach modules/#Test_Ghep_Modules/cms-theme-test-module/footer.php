@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -11,9 +12,10 @@
 
 ?>
 
-<?php get_template_part('template-parts/15/15', 'content');?>
-
-<?php wp_footer(); ?>
+<div id="footer-sidebar" class="secondary">
+    <?php get_template_part('template-parts/15/15', 'content'); ?>
+</div>
 
 </body>
+
 </html>

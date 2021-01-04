@@ -13,72 +13,70 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-15">
     <div class="type-15__container">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-lg-3">
-                    <div class="widget_text">
-                        <img src="<?php bloginfo('stylesheet_directory');?>/images/logo-footer.png" alt="logo_footer"/>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-3">
+                        <div class="widget_text">
+                            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-footer.png" alt="logo_footer" />
+                        </div>
+                        <div class="text">
+                            <p>
+                                The mission of Shaka is to assist the experience of water sports in the safest and most
+                                thrilling way possible, with terrific and impressive coaching as well as equipment hire.
+                            </p>
+                        </div>
                     </div>
-                    <div class="text">
-                        <p>
-                            The mission of Shaka is to assist the experience of water sports in the safest and most
-                            thrilling way possible, with terrific and impressive coaching as well as equipment hire.
-                        </p>
+                    <div class="col-xs-12 col-lg-2">
+                        <div class="widget-footer">
+                            <h6 class="footer-top_heading ">SERVICES</h6>
+                            <div id="footer-sidebar1">
+                                <?php
+                                if (is_active_sidebar('footer-sidebar-1')) {
+                                    dynamic_sidebar('footer-sidebar-1');
+                                }
+                                ?>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-lg-2">
-                    <div class="widget-footer">
-                        <h6 class="footer-top_heading ">SERVICES</h6>
-                        <ul class="menu_service">
-                            <li><a href="./services">All Services</a></li>
-                            <li><a href="./services/surfing">Surfing</a></li>
-                            <li><a href="./services/windsurfing">Windsurfing</a></li>
-                            <li><a href="./services/kiting">Kiting</a></li>
-                            <li><a href="./services/waterskiing-and-suping">Water-skiing and Suping</a></li>
-                            <li><a href="./services/diving-and-snorkeling">Diving and Snorkeling</a></li>
-                            <li><a href="./services/sailing-and-navigation">Sailing and Navigation</a></li>
-                        </ul>
+                    <div class="col-xs-12 col-lg-2">
+                        <div class="widget-footer">
+                            <h6 class="footer-top_heading ">EXTRAS</h6>
+                            <div id="footer-sidebar2">
+                                <?php
+                                if (is_active_sidebar('footer-sidebar-2')) {
+                                    dynamic_sidebar('footer-sidebar-2');
+                                }
+                                ?>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-lg-2">
-                    <div class="widget-footer">
-                        <h6 class="footer-top_heading ">EXTRAS</h6>
-                        <ul class="menu_extras">
-                            <li><a href="./extras">Extras</a></li>
-                            <li><a href="./extras">Pricing</a></li>
-                            <li><a href="./extras">Accordion</a></li>
-                            <li><a href="./extras">Brochure Box</a></li>
-                            <li><a href="./extras">Number Counter</a></li>
-                            <li><a href="./extras">Skype Button</a></li>
-                            <li><a href="./extras">Error 404</a></li>
-                        </ul>
+                    <div class="col-xs-12 col-lg-2">
+                        <div class="widget-footer">
+                            <h6 class="footer-top_heading ">SHOP</h6>
+                            <div id="footer-sidebar3">
+                                <?php
+                                if (is_active_sidebar('footer-sidebar-3')) {
+                                    dynamic_sidebar('footer-sidebar-3');
+                                }
+                                ?>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-lg-2">
-                    <div class="widget-footer">
-                        <h6 class="footer-top_heading ">SHOP</h6>
-                        <ul class="menu_shop">
-                            <li><a href="./shop">Diving Fins</a></li>
-                            <li><a href="./shop">Neoprene Suit</a></li>
-                            <li><a href="./shop">Snorkel mask</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-lg-3">
-                    <div class="widget-footer">
-                        <h6 class="footer-top_heading ">CONTACT INFO</h6>
-                        <div class="widget-text">
-                            <p><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>227 Marion Street Avenue, UK</p>
-                            <p><i class="fa fa-phone fa-2x" aria-hidden="true"></i>1-888-123-4567</p>
-                            <p><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>info@shaka.com</p>
+                    <div class="col-xs-12 col-lg-3">
+                        <div class="widget-footer">
+                            <h6 class="footer-top_heading ">CONTACT INFO</h6>
+                            <div class="widget-text">
+                                <p><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>227 Marion Street Avenue, UK</p>
+                                <p><i class="fa fa-phone fa-2x" aria-hidden="true"></i>1-888-123-4567</p>
+                                <p><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>info@shaka.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div></div>
+    </div>
     <div class="footer-bottom">
         <div class="container">
             <div class="row">

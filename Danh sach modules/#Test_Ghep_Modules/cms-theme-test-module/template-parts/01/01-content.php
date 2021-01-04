@@ -72,7 +72,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img src="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png" alt="Shaka" srcset="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo2x.png 2x" class="img-fluid" width="244" height="50">
                     </a>
                 </div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -128,7 +128,15 @@ $url_path = str_replace('\\', '/', $url_path);
                         </ul>
                         <a href="#" class="the-myth">BUY THEME NOW</a>
                     </div>
-                </nav>
+                </nav> -->
+
+                <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'my-custom-menu',
+                    'container_class' => 'custom-menu-class'
+                ));
+                ?>
+
             </div>
         </div>
     </div>
