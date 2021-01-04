@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="lastest-new" style="background-image:url('<?php bloginfo('stylesheet_directory');?>/images/13.jpg');">
+                    <div class="lastest-new" style="background-image:url('<?php bloginfo('stylesheet_directory'); ?>/images/13.jpg');">
                         <div class="lastest-new__content">
                             <div class="lastest-new__date">
                                 <span>JUNE 21, 2016</span>
@@ -40,32 +40,33 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="col-md-3">
-                <div class="contact-profile">
-                    <img src="<?php bloginfo('stylesheet_directory');?>/images/14.1.jpg" alt=""/>
-                    <div class="contact-profile__container">
-                        <p class="text-holder">JUNE 21, 2016</p>
-                        <h4 class="card-title">CATCHING THAT FIRST WAVE</h4>
-                       
-                        <div class="contact-profile__social-icons">
-                          <a href="#">READ MORE</a>
-                        </div>
-                    </div>
+                    <div class="contact-profile">
 
-                </div>
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/14.1.jpg" alt="" />
+                        <div class="contact-profile__container">
+                            <p class="text-holder">JUNE 21, 2016</p>
+                            <h4 class="card-title">CATCHING THAT FIRST WAVE</h4>
+
+                            <div class="contact-profile__social-icons">
+                                <a href="#">READ MORE</a>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
                 <div class="col-md-3">
-                <div class="contact-profile">
-                <img src="<?php bloginfo('stylesheet_directory');?>/images/14.2.jpg" alt=""/>
-                    <div class="contact-profile__container">
-                        <p class="text-holder">JUNE 21, 2016</p>
-                        <h4 class="card-title">SCUBA DIVING IN A TSUNAMI</h4>
-                       
-                        <div class="contact-profile__social-icons">
-                          <a href="#">READ MORE</a>
-                        </div>
-                    </div>
+                    <div class="contact-profile">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/14.2.jpg" alt="" />
+                        <div class="contact-profile__container">
+                            <p class="text-holder">JUNE 21, 2016</p>
+                            <h4 class="card-title">SCUBA DIVING IN A TSUNAMI</h4>
 
-                </div>
+                            <div class="contact-profile__social-icons">
+                                <a href="#">READ MORE</a>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>

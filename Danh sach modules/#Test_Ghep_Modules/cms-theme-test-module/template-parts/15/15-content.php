@@ -31,7 +31,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="widget-footer">
                             <h6 class="footer-top_heading ">SERVICES</h6>
                             <div id="footer-sidebar1">
-                                <?php
+                            <?php
                                 if (is_active_sidebar('footer-sidebar-1')) {
                                     dynamic_sidebar('footer-sidebar-1');
                                 }
