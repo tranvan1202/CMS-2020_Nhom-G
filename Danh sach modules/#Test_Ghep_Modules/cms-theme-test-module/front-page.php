@@ -20,9 +20,6 @@ get_header();
 		<?php
 		while ( have_posts() ) :
 			the_post();
-
-			//get_template_part( 'template-parts/content', 'page' );
-			get_template_part( 'template-parts/02/02', 'content' );
 			get_template_part( 'template-parts/06/06', 'content' );
 			get_template_part( 'template-parts/07/07', 'content' );
 			get_template_part( 'template-parts/08/08', 'content' );

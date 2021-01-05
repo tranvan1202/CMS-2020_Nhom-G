@@ -16,18 +16,18 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row">
 
             <div class="card-deck">
-                <a href="shop" class="card">
-                    <img class="card-img-top" src="<?php bloginfo('stylesheet_directory');?>/images/10-cate" alt="..."/>
+                <a href="./shop" class="card">
+                    <img class="card-img-top" src="<?php bloginfo('stylesheet_directory');?>/images/categories/10-cate1" alt="..."/>
                     <div class="card-text">Boards</div>
                 </a>
 
-                <a href="shop" class="card">
-                <img class="card-img-top" src="<?php bloginfo('stylesheet_directory');?>/images/10-cate" alt="..."/>
+                <a href="./shop" class="card">
+                <img class="card-img-top" src="<?php bloginfo('stylesheet_directory');?>/images/categories/10-cate2" alt="..."/>
                     <div class="card-text">Diving</div>
                 </a>
 
-                <a href="shop" class="card">
-                <img class="card-img-top" src="<?php bloginfo('stylesheet_directory');?>/images/10-cate" alt="..."/>
+                <a href="./shop" class="card">
+                <img class="card-img-top" src="<?php bloginfo('stylesheet_directory');?>/images/categories/10-cate3" alt="..."/>
                     <div class="card-text">Bikinis</div>
                 </a>
 

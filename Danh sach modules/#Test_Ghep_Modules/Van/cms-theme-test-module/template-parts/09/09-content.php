@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
 
             <div class="card-deck">
-                <?php echo do_shortcode("[products limit= '4' columns='4']");?>
+                <?php echo do_shortcode("[products limit= '4' columns='4' category='events' cat_operator='NOT IN']");?>
                 
             </div>
 

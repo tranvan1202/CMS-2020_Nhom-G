@@ -15,63 +15,14 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row">
             <div class="title-shop-a-surf">
-                <a class="btn  btn-dark  js-funky-box  btn-funky  is-btn-title" href="#">
+                <a class="btn  btn-dark  js-funky-box  btn-funky  is-btn-title" href="./shop">
                     SHOP A SURF
                 </a>
             </div>
 
             <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/images/09-item1" alt="Card image cap" />
-                    <div class="card-body">
-                        <p class="card-price"> £15.00</p>
-                        <h4 class="card-title">
-                            <a href="#">Snorkel Mask</a>
-                        </h4>
-                        <div class="card-categories">
-                            <a href="#">Diving</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/images/09-item1" alt="Card image cap" />
-                    <div class="card-body">
-                        <p class="card-price"> £15.00 </p>
-                        <h4 class="card-title">
-                            <a href="#">Snorkel Mask</a>
-                        </h4>
-                        <div class="card-categories">
-                            <a href="#">Diving</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/images/09-item1" alt="Card image cap" />
-                    <div class="card-body">
-                        <p class="card-price"> £15.00 </p>
-                        <h4 class="card-title">
-                            <a href="#">Snorkel Mask</a>
-                        </h4>
-                        <div class="card-categories">
-                            <a href="#">Diving</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/images/09-item1" alt="Card image cap" />
-                    <div class="card-body">
-                        <p class="card-price"> £15.00</p>
-                        <h4 class="card-title">
-                            <a href="#">Snorkel Mask</a>
-                        </h4>
-                        <div class="card-categories">
-                            <a href="#">Diving</a>
-                        </div>
-                    </div>
-                </div>
+                <?php echo do_shortcode("[products limit= '4' columns='4' category='events' cat_operator='NOT IN']");?>
+                
             </div>
 
         </div>

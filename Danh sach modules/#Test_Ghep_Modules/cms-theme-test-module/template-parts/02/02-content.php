@@ -11,6 +11,60 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+<div class="type-01">
+	<div class="top">
+		<div class="container">
+			<div class="row">
+				<div class="container">
+					<div class="top__left">
+						<div class="widget  widget-icon-box">
+							<div class="icon-box">
+								<i class="fa  fa-home"></i>
+								<h4 class="icon-box__title">Surfing School, 227 Marrion Street, 110056 Fuertaventura
+								</h4>
+								<span class="icon-box__subtitle"></span>
+							</div>
+						</div>
+					</div>
+					<div class="top__right">
+						<div class="widget  widget_nav_menu">
+							<div class="menu-top-menu-container">
+								<ul id="menu-top-menu" class="menu">
+									<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-44">
+										<a href="./extras">Extras</a>
+									</li>
+									<li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"><a href="#">Documentation</a></li>
+									<li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"><a href="#">Buy Theme</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header__container">
+		<div class="container">
+			<div class="header">
+
+				<div class="header__logo">
+					<a href="./home">
+						<img src="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png" alt="Shaka" srcset="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo2x.png 2x" class="img-fluid" width="244" height="50">
+					</a>
+				</div>
+
+				<?php
+				wp_nav_menu(array(
+					'theme_location' => 'my-custom-menu',
+					'container_class' => 'custom-menu-class'
+				));
+				?>
+
+			</div>
+		</div>
+	</div>
+
+</div>
 <div class="type-02">
 	<div class="slider">
 		<div class="container">
@@ -31,7 +85,7 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 					<div class="widget-info">
 						<div class="cover-info">
-							<i class="fa fa-headphones"></i></i>
+							<i class="fa fa-headphones"></i>
 							<h4 class="icon-box">031 567 653</h4>
 						</div>
 					</div>
@@ -49,7 +103,7 @@ $url_path = str_replace('\\', '/', $url_path);
 		</div>
 		<div class="cover-slider">
 			<div class="slider-item">
-				<img src="http://<?php echo $url_path ?>/images/slider1.jpg" srcset="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/slider1.jpg 1920w, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/slider1-960x330.jpg 960w, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/slider1-480x165.jpg 480w" alt="hinh1" >
+				<img src="http://<?php echo $url_path ?>/images/slider1.jpg" srcset="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/slider1.jpg 1920w, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/slider1-960x330.jpg 960w, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/slider1-480x165.jpg 480w" alt="hinh1">
 			</div>
 		</div>
 		<div class="container">

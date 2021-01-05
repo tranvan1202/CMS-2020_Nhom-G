@@ -21,8 +21,8 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
 
             <div class="col-sm-6 call-to-action-button">
-                 <a class="btn  btn-primary" href="#" target="_self"> EVENTS</a>
-                <a class="btn  btn-light" href="#" target="_blank"> BUY NOW FOR $79</a>
+                 <a class="btn  btn-primary" href="./events" target="_self"> EVENTS</a>
+                <a class="btn  btn-light" href="./events" target="_self"> BUY NOW FOR $79</a>
             </div>
 
         </div>

@@ -136,17 +136,17 @@ add_action('init', 'wpb_custom_new_footer');
  */
 function cms_theme_test_module_widgets_init()
 {
-	// register_sidebar(
-	// 	array(
-	// 		'name'          => esc_html__('Sidebar', 'cms-theme-test-module'),
-	// 		'id'            => 'sidebar-1',
-	// 		'description'   => esc_html__('Add widgets here.', 'cms-theme-test-module'),
-	// 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-	// 		'after_widget'  => '</section>',
-	// 		'before_title'  => '<h2 class="widget-title">',
-	// 		'after_title'   => '</h2>',
-	// 	)
-	// );
+	register_sidebar(
+		array(
+			'name'          => esc_html__('Sidebar', 'cms-theme-test-module'),
+			'id'            => 'sidebar-1',
+			'description'   => esc_html__('Add widgets here.', 'cms-theme-test-module'),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
 
 	register_sidebar(array(
 		'name' => 'Footer Sidebar 1',
@@ -212,6 +212,14 @@ function load_bootstrap()
 	wp_enqueue_style('bootstrap');
 }
 add_action('wp_enqueue_scripts', 'load_bootstrap');
+
+function load_wc_css()
+{
+	wp_register_style('wcstyle', get_template_directory_uri() .  '/style.css', array(), false, 'all');
+	wp_enqueue_style('wcstyle');
+}
+add_action('wp_enqueue_scripts', 'load_wc_css');
+
 
 function eq_less()
 {
@@ -305,3 +313,44 @@ require get_template_directory() . '/inc/template-tags.php';
 // if ( defined( 'JETPACK__VERSION' ) ) {
 // 	require get_template_directory() . '/inc/jetpack.php';
 // }
+
+add_action('after_setup_theme', 'woocommerce_support');
+
+function woocommerce_support()
+{
+
+	add_theme_support('woocommerce');
+}
+
+// if (class_exists('Woocommerce')){
+
+//     add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
+
+// }
+
+//Hiển thị Categories cho item
+add_action('woocommerce_after_shop_loop_item_title', 'add_categoryname_product_loop', 25);
+function add_categoryname_product_loop()
+{
+	global $product;
+	$product_cats = wp_get_post_terms($product->id, 'product_cat');
+	$count = count($product_cats);
+	foreach ($product_cats as $key => $cat) {
+		echo '<div class="featured-product__categories">' . $cat->name . '</div>';
+		if ($key < ($count - 1)) {
+			echo ' ';
+		} else {
+			echo ' ';
+		}
+	}
+}
+add_action( 'woocommerce_archive_description', 'additional_div_in_shop', 5 );
+function additional_div_in_shop() {
+    // Only on "shop" archives pages
+     
+
+    // Output the div
+    ?>
+        <div class="shop-below-title"><?php _e( "", "woocommerce" ); ?></div>
+    <?php
+}

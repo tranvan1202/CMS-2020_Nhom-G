@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The header for our theme
  *
@@ -12,21 +13,28 @@
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
+
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<title>CMS - Wordpress - Nhóm G</title>
+	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<?php get_template_part('template-parts/01/01', 'content');?>
-	<?php if ( has_nav_menu( 'top' ) ) : ?>
-			<div class="navigation-top">
-				<div class="wrap">
-					<?php get_template_part( 'template-parts/01/01', 'content' ); ?>
-				</div><!-- .wrap -->
-			</div><!-- .navigation-top -->
-		<?php endif; ?>
+	<?php
+	$pageID = get_option('page_on_front');
+	if (is_page($pageID)) { ?>
+
+		<?php get_template_part('template-parts/02/02', 'content'); ?>
+
+	<?php } else { ?>
+		<?php get_template_part('template-parts/01/01', 'content'); ?>
+
+	<?php } ?>
+
+
+
+
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-
+	<?php wp_body_open(); ?>

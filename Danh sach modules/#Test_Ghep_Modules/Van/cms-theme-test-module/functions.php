@@ -351,6 +351,6 @@ function additional_div_in_shop() {
 
     // Output the div
     ?>
-        <div class="shop-below-title"><?php _e( "Choose a category below", "woocommerce" ); ?></div>
+        <div class="shop-below-title"><?php _e( "", "woocommerce" ); ?></div>
     <?php
 }

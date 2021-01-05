@@ -14,209 +14,18 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-42">
     <div class="container">
         <div class="row">
-            <!-- <nav class="filter-header" id="myBtnContainer"> 
-
-                <ul class="filter-holder">
-                    <li class="filterDiv"><a href="#" class="filter-click filter1 is-active" onclick="filterSelection('all')">All</a></li>
-                    <li class="filterDiv"><a href="#" class="filter-click filter2" onclick="filterSelection('surfing')">SURFING</a></li>
-                    <li class="filterDiv"><a href="#" class="filter-click filter3" onclick="filterSelection('family')">FAMILY TRIPS</a></li>
-                    <li class="filterDiv"><a href="#" class="filter-click filter4" onclick="filterSelection('wind')">WINDSURFING</a></li>
-                    <li class="filterDiv"><a href="#" class="filter-click filter5" onclick="filterSelection('kite')">KITESURFING</a></li>
-                </ul>
-            </nav> -->
 
             <div id="myBtnContainer" class="filter-header">
                 <button class="btn active" onclick="filterSelection('all')"> All</button>
-                <button class="btn" onclick="filterSelection('surfing')"> SURFING</button>
-                <button class="btn" onclick="filterSelection('family')"> FAMILY TRIPS</button>
-                <button class="btn" onclick="filterSelection('wind')"> WINDSURFING</button>
-                <button class="btn" onclick="filterSelection('kite')"> KITESURFING</button>
+                <button class="btn" onclick="filterSelection('product_cat-surfing')"> SURFING</button>
+                <button class="btn" onclick="filterSelection('product_cat-family-trips')"> FAMILY TRIPS</button>
+                <button class="btn" onclick="filterSelection('product_cat-windsurfing')"> WINDSURFING</button>
+                <button class="btn" onclick="filterSelection('product_cat-kitesurfing')"> KITESURFING</button>
             </div>
         </div>
 
-        <div class="row">
-
-            <a class="custom-card col-md-3 surfing" href="#">
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory');?>/images/42-item1" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-price"> $650</p>
-                        <h5 class="card-title">
-                            Trip to Spain 1
-                        </h5>
-                        <div class="card-items">
-                            <p class="card-item">
-                                <i class="fa fa-map-marker"></i>
-                                Los Riomare
-                            </p>
-                            <p class="card-item">
-                                <i class="fa fa-check"></i>
-                                Accomodation
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-
-            <a class="custom-card col-md-3 wind" href="#">
-                <div class="card">
-                <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory');?>/images/42-item1" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-price"> $650</p>
-                        <h5 class="card-title">
-                            Trip to Spain 2
-                        </h5>
-                        <div class="card-items">
-                            <p class="card-item">
-                                <i class="fa fa-map-marker"></i>
-                                Los Riomare
-                            </p>
-                            <p class="card-item">
-                                <i class="fa fa-check"></i>
-                                Accomodation
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="custom-card col-md-3 family" href="#">
-                <div class="card">
-                <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory');?>/images/42-item1" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-price"> $650</p>
-                        <h5 class="card-title">
-                            Trip to Spain 3
-                        </h5>
-                        <div class="card-items">
-                            <p class="card-item">
-                                <i class="fa fa-map-marker"></i>
-                                Los Riomare
-                            </p>
-                            <p class="card-item">
-                                <i class="fa fa-check"></i>
-                                Accomodation
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </a>
-
-            <a class="custom-card col-md-3 kite" href="#">
-                <div class="card">
-                <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory');?>/images/42-item1" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-price"> $650</p>
-                        <h5 class="card-title">
-                            Trip to Spain 4
-                        </h5>
-                        <div class="card-items">
-                            <p class="card-item">
-                                <i class="fa fa-map-marker"></i>
-                                Los Riomare
-                            </p>
-                            <p class="card-item">
-                                <i class="fa fa-check"></i>
-                                Accomodation
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="custom-card col-md-3 kite" href="#">
-                <div class="card">
-                <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory');?>/images/42-item1" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-price"> $650</p>
-                        <h5 class="card-title">
-                            Trip to Spain 5
-                        </h5>
-                        <div class="card-items">
-                            <p class="card-item">
-                                <i class="fa fa-map-marker"></i>
-                                Los Riomare
-                            </p>
-                            <p class="card-item">
-                                <i class="fa fa-check"></i>
-                                Accomodation
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </a>
-
-            <a class="custom-card col-md-3 surfing" href="#">
-                <div class="card">
-                <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory');?>/images/42-item1" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-price"> $650</p>
-                        <h5 class="card-title">
-                            Trip to Spain 6
-                        </h5>
-                        <div class="card-items">
-                            <p class="card-item">
-                                <i class="fa fa-map-marker"></i>
-                                Los Riomare
-                            </p>
-                            <p class="card-item">
-                                <i class="fa fa-check"></i>
-                                Accomodation
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </a>
-
-            <a class="custom-card col-md-3 wind" href="#">
-                <div class="card">
-                <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory');?>/images/42-item1" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-price"> $650</p>
-                        <h5 class="card-title">
-                            Trip to Spain 7
-                        </h5>
-                        <div class="card-items">
-                            <p class="card-item">
-                                <i class="fa fa-map-marker"></i>
-                                Los Riomare
-                            </p>
-                            <p class="card-item">
-                                <i class="fa fa-check"></i>
-                                Accomodation
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </a>
-
-            <a class="custom-card col-md-3 surfing" href="#">
-                <div class="card">
-                <img class="card-img-top img-fluid" src="<?php bloginfo('stylesheet_directory');?>/images/42-item1" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-price"> $650</p>
-                        <h5 class="card-title">
-                            Trip to Spain 8
-                        </h5>
-                        <div class="card-items">
-                            <p class="card-item">
-                                <i class="fa fa-map-marker"></i>
-                                Los Riomare
-                            </p>
-                            <p class="card-item">
-                                <i class="fa fa-check"></i>
-                                Accomodation
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </a>
+        <div class="row row-for-items">
+            <?php echo do_shortcode("[products limit='8' columns='4' category='events']");?>
 
         </div>
     </div>
@@ -227,7 +36,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
     function filterSelection(c) {
         var x, i;
-        x = document.getElementsByClassName("custom-card");
+        x = document.getElementsByClassName("product");
         if (c == "all") c = "";
         // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
         for (i = 0; i < x.length; i++) {

@@ -31,27 +31,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="widget  widget_nav_menu">
                             <div class="menu-top-menu-container">
                                 <ul id="menu-top-menu" class="menu">
-                                    <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-44">
+                                    <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-44">
                                         <a href="./extras">Extras</a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-955">
-                                                <a href="#">Pricing</a>
-                                            </li>
-                                            <li id="menu-item-983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-983">
-                                                <a href="#">Accordion</a>
-                                            </li>
-                                            <li id="menu-item-984" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-984">
-                                                <a href="#">Brochure
-                                                    Box</a></li>
-                                            <li id="menu-item-985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-985">
-                                                <a href="#">Number
-                                                    Counter</a></li>
-                                            <li id="menu-item-986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-986">
-                                                <a href="#">Skype
-                                                    Button</a></li>
-                                            <li id="menu-item-987" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-987">
-                                                <a href="#">Error 404</a></li>
-                                        </ul>
                                     </li>
                                     <li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"><a href="#">Documentation</a></li>
                                     <li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"><a href="#">Buy Theme</a></li>
@@ -72,63 +53,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img src="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png" alt="Shaka" srcset="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo2x.png 2x" class="img-fluid" width="244" height="50">
                     </a>
                 </div>
-                <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto customs">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="home" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Home
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="./home">Front Page</a>
-                                    <a class="dropdown-item" href="./home/discover-all-features">Discover All Features</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Services
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="./services">All Services</a>
-                                    <a class="dropdown-item" href="./services/surfing">Surfing</a>
-                                    <a class="dropdown-item" href="./services/windsurfing">Windsurfing</a>
-                                    <a class="dropdown-item" href="./services/kiting">KITING</a>
-                                    <a class="dropdown-item" href="./services/waterskiing-and-suping">WATER-SKIING AND SUPING</a>
-                                    <a class="dropdown-item" href="./services/diving-and-snorkeling">DIVING AND SNORKELING</a>
-                                    <a class="dropdown-item" href="./services/sailing-and-navigation">SAILING AND NAVIGATION</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="./events" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Events
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="./about-us" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    About us
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="./blog" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Blog
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="./shop" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Shop
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="./contact" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                        <a href="#" class="the-myth">BUY THEME NOW</a>
-                    </div>
-                </nav> -->
 
                 <?php
                 wp_nav_menu(array(
@@ -140,5 +64,56 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
+
+    <div class="type-22">
+		<div class="container">
+			<div class="type-16">
+				<div class="container">
+					<nav class="navbar navbar-expand-sm navbar-dark">
+						<!-- Links -->
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="fa fa-twitter " aria-hidden="true"></i></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="fa fa-youtube " aria-hidden="true"></i></a>
+							</li>
+						</ul>
+						<ul class="navbar-nav ml-auto social-icon__right">
+							<li class="nav-item">
+								<a class="nav-link icon-box" href="#"> <i class="fa fa-envelope" aria-hidden="true"></i>INFO&#64;SURFING.COM</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="fa fa-headphones" aria-hidden="true"></i>031 567 653</a>
+							</li>
+
+							<!-- Dropdown -->
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+									<img src="<?php bloginfo('stylesheet_directory'); ?>/images/en.png" alt="english">ENGLISH
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/de.png" alt=""> Deutsch</a>
+									<a class="dropdown-item" href="#">WPML support</a>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<h2 class="type-22__title">
+				<?php wp_title(''); ?>
+			</h2>
+			<div class="type-22__breadcrumb" typeof="BreadcrumbList" vocab="https://schema.org/">
+				<?php
+				if (function_exists('bcn_display')) {
+					bcn_display();
+				} ?>
+			</div>
+		</div>
+	</div>
 
 </div>
