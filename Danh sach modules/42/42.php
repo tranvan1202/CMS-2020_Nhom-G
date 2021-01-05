@@ -27,6 +27,7 @@ $less->compileFile('less/42.less', 'css/42.css');
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" href="">
 
         <?php
         if (!class_exists('lessc')) {
