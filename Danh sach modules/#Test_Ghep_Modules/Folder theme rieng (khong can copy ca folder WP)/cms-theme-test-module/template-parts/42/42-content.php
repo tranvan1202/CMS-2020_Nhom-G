@@ -26,7 +26,6 @@ $url_path = str_replace('\\', '/', $url_path);
 
         <div class="row row-for-items">
             <?php echo do_shortcode("[products limit='8' columns='4' category='events']");?>
-
         </div>
     </div>
 </div>

@@ -31,5 +31,6 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="type-24__read-more">
             <a href="#">READ MORE</a>
         </div>
+      
     </div>
 </div>
