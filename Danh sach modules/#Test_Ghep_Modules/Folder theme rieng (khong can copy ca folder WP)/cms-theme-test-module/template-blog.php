@@ -9,10 +9,19 @@ get_header();
 
     <div class="container">
         <div class="row">
-            <div class="col-md-10">
-                <div class="row">
-                    <?php get_template_part('template-parts/24/24', 'content'); ?>
-                </div>
+            <div class="col-md-5">
+                <?php
+                get_template_part('template-parts/24/24', 'content');
+                get_template_part('template-parts/24/24', 'content');
+                get_template_part('template-parts/24/24', 'content');
+                ?>
+            </div>
+            <div class="col-md-5">
+                <?php
+                get_template_part('template-parts/24/24', 'content');
+                get_template_part('template-parts/24/24', 'content');
+                get_template_part('template-parts/24/24', 'content');
+                ?>
             </div>
             <div class="col-md-2">
                 <?php
@@ -20,15 +29,9 @@ get_header();
                 ?>
             </div>
         </div>
-        <div>
-            <?php
-            get_template_part('template-parts/25/25', 'content');
-
-            ?>
-        </div>
-
-
-
+        <?php
+        get_template_part('template-parts/25/25', 'content');
+        ?>
     </div>
 </main><!-- #main -->
 
