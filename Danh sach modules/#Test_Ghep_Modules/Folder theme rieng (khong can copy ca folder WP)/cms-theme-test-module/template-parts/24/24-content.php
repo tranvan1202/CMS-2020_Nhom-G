@@ -43,4 +43,6 @@ if ($lastposts) {
         </div>
 <?php endforeach;
     wp_reset_postdata();
+    
+
 } ?>

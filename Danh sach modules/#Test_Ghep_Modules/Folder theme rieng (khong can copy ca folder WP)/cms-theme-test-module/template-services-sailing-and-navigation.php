@@ -25,7 +25,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <h4>BỎ CÁC MODULES VÀO ĐÂY</h4>
+                <?php   get_template_part('template-parts/68/68', 'content');?>
                 </div>
             </div>
         </div>

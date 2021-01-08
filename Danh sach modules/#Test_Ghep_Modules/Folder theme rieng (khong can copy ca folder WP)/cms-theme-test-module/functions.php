@@ -272,6 +272,12 @@ function eq_less()
 	wp_enqueue_style('less-style-23', get_stylesheet_directory_uri() . '/template-parts/23/less/23.less', array(), null, 'all');
 	wp_enqueue_style('less-style-24', get_stylesheet_directory_uri() . '/template-parts/24/less/24.less', array(), null, 'all');
 	wp_enqueue_style('less-style-25', get_stylesheet_directory_uri() . '/template-parts/25/less/25.less', array(), null, 'all');
+	//CSS Trang Blog Details
+	wp_enqueue_style('less-style-39', get_stylesheet_directory_uri() . '/template-parts/39/less/39.less', array(), null, 'all');
+	wp_enqueue_style('less-style-40', get_stylesheet_directory_uri() . '/template-parts/40/less/40.less', array(), null, 'all');
+
+	//CSS Trang service-waterskiing
+	wp_enqueue_style('less-style-68', get_stylesheet_directory_uri() . '/template-parts/68/less/68.less', array(), null, 'all');
 }
 add_action('wp_enqueue_scripts', 'eq_less', 99);
 

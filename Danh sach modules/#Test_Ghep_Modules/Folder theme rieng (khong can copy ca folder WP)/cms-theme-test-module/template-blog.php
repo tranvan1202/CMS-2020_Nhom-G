@@ -9,15 +9,17 @@ get_header();
 
     <div class="container">
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-9">
                 <div class="row">
                     <?php get_template_part('template-parts/24/24', 'content'); ?>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <?php
                 get_template_part('template-parts/23/23', 'content');
+
                 ?>
+               
             </div>
         </div>
         <div>
