@@ -49,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="header">
 
                 <div class="header__logo">
-                    <a href="./home">
+                    <a href="">
                         <img src="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png" alt="Shaka" srcset="https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo.png, https://demo.proteusthemes.com/shaka/wp-content/uploads/sites/38/2016/06/logo2x.png 2x" class="img-fluid" width="244" height="50">
                     </a>
                 </div>

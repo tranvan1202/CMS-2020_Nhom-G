@@ -31,7 +31,7 @@ if ($lastposts) {
                     <i class="fa fa-user" aria-hidden="true"></i> BY <?php the_author(); ?>
                 </div>
                 <h3 class="type-24__title">
-                    <?php the_title(); ?>
+                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 </h3>
                 <div class="type-24__description">
                     <?php the_excerpt(); ?>
@@ -43,6 +43,4 @@ if ($lastposts) {
         </div>
 <?php endforeach;
     wp_reset_postdata();
-    
-
 } ?>
