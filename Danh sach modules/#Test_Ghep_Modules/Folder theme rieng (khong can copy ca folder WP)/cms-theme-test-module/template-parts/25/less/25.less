@@ -1,5 +1,8 @@
 .type-25 {
     padding: 20px 0;
+    i{
+        color: #fff;
+    }
     .type-25__pagination {
         display: flex;
         justify-content: center;
@@ -11,16 +14,17 @@
         display: inline-block;
         border: #000 3px solid;
         text-align: center;
-        color: #000;
-        margin: 0 5px;
+        color: #fff;
+        background: #000;
+      
     }
 
     .type-25__pagination__item--active {
         .type-25__pagination__item();
-        background: #000;
-        color: #FFF;
+        background: #fff;
+        color: #000;
     }
-
+    
     .type-25__previous,
     .type-25__next {
         position: relative;
@@ -29,6 +33,7 @@
         text-align: center;
         line-height: 3.11rem;
         font-size: 1.7rem;
+        margin: auto;
 
         &::before {
             content: '';
