@@ -19,22 +19,23 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<?php
-	$pageID = get_option('page_on_front');
-	if (is_page($pageID)) { ?>
-
-		<?php get_template_part('template-parts/02/02', 'content'); ?>
-
-	<?php } else { ?>
-		<?php get_template_part('template-parts/01/01', 'content'); ?>
-
-	<?php } ?>
-
-
-
-
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+
+	<header>
+
+		<?php
+		$pageID = get_option('page_on_front');
+		if (is_page($pageID)) { ?>
+
+			<?php get_template_part('template-parts/02/02', 'content'); ?>
+
+		<?php } else { ?>
+			<?php get_template_part('template-parts/01/01', 'content'); ?>
+
+		<?php } ?>
+	</header>
+
 	<?php wp_body_open(); ?>

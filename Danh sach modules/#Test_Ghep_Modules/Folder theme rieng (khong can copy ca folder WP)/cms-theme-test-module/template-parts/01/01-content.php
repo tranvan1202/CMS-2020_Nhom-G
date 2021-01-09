@@ -49,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="header">
 
                 <div class="header__logo">
-                    <a href="">
+                    <a href="/">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="Shaka" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png, <?php bloginfo('stylesheet_directory'); ?>/images/logo2x.png 2x" class="img-fluid" width="244" height="50">
                     </a>
                 </div>
