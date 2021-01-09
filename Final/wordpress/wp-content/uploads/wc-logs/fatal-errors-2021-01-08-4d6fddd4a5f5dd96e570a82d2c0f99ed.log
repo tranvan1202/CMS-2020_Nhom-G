@@ -1,0 +1,4 @@
+2021-01-08T10:23:55+00:00 CRITICAL Cannot redeclare wp_untrash_post_set_previous_status() (previously declared in C:\wamp64\www\wordpress\wp-includes\post.php:7617) in C:\wamp64\www\wordpress\wp-admin\includes\post.php on line 7617
+
+2021-01-08T10:25:40+00:00 CRITICAL Cannot redeclare wp_untrash_post_set_previous_status() (previously declared in C:\wamp64\www\wordpress\wp-includes\post.php:7617) in C:\wamp64\www\wordpress\wp-admin\includes\post.php on line 7617
+
